@@ -21,6 +21,6 @@ The files have been prepared by the contribution of the following persons:
 - Pieter Pauwels
 - Georg Ferdinand Schneider
 
-# Contributing
+## Contributing
 
-Please feel free to fork and contribute to the data set. The intention is to have it as a playground use case for manifold data on the web approaches to smart home data.
+Please feel free to fork and contribute to the data set in compliance with the issued license. The intention is to have it as a playground use case for manifold data on the web approaches to smart home data.
