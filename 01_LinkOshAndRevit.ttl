@@ -1,0 +1,60 @@
+# Copyright (c) 2018 W3C Linked Building Data Community Group
+# 
+# This copyright applies to the vocabulary specification and
+# accompanying documentation in RDF. Regarding underlying technology,
+# the ontology uses W3C's RDF technology, an open web standard that can be
+# freely used by anyone.
+#
+# Licensed under the Creative Commons Attribution Share Alike License 
+# (CC BY-SA 4.0); you may not use this file except in compliance with 
+# the license. You may obtain a copy of the license at:
+#
+#          https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Unless required by applicable law or agreed to in writing,
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix qudt-1-1: <http://qudt.org/1.1/schema/qudt#> .
+@prefix qudt-unit-1-1: <http://qudt.org/1.1/vocab/unit#> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix dog: <http://elite.polito.it/ontologies/dogont.owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn:  <http://www.w3.org/ns/ssn/> .
+@prefix seas: <https://w3id.org/seas/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+@prefix osh: <https://www.w3id.org/ibp/OpenSmartHomeDataSet#> .
+@prefix : <https://niras.dk/projects/0001> .
+
+<https://www.w3id.org/ibp/AlignOshAndRevit> rdf:type owl:Ontology ;
+            dcterms:title "Ontology to align OSH and Revit generated ontology."@en ;
+			dcterms:creator "Mads Holten Rasmussen" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:contributor "Georg Ferdinand Schneider" ;
+            dcterms:contributor "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            
+			dcterms:rights """Copyright (c) 2018, Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2017-02-15"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> .
+
+osh:Level1              owl:sameAs <https://niras.dk/projects/0001/Levels/e3e052f9-0156-11d5-9301-0000863f27ad-00000137> .
+osh:Level2              owl:sameAs <https://niras.dk/projects/0001/Levels/458c0e49-01bb-11d5-9302-0000863f27ad-000002b6> .
+osh:Kitchen             owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> .
+osh:Lobby               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> .
+osh:Room1               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> .
+osh:Room2               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> .
+osh:Room3               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> .
+#osh:Toilet              owl:sameAs  .
+#osh:RoomBeforeToilet    owl:sameAs  .
+osh:Staircase           owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> .
+osh:Bathroom            owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> .

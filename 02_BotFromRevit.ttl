@@ -1,0 +1,471 @@
+@prefix : <https://niras.dk/projects/0001> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cdt: <http://w3id.org/lindt/custom_datatypes#> .
+@prefix nir: <https://Niras.dk/XXXX#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rvt: <https://example.org/rvt#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology ;
+   owl:imports <https://w3id.org/bot/0.2.0>
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://Niras.dk/XXXX#length
+nir:length rdf:type owl:AnnotationProperty .
+
+
+###  https://Niras.dk/XXXX#space_area
+nir:space_area rdf:type owl:AnnotationProperty .
+
+
+###  https://Niras.dk/XXXX#space_volumen
+nir:space_volumen rdf:type owl:AnnotationProperty .
+
+
+###  https://Niras.dk/XXXX#width
+nir:width rdf:type owl:AnnotationProperty .
+
+
+###  https://example.org/rvt#guid
+rvt:guid rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/bot#adjacentElement
+bot:adjacentElement rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/bot#hasSpace
+bot:hasSpace rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/bot#hostsElement
+bot:hostsElement rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://w3id.org/lindt/custom_datatypes#length
+cdt:length rdf:type rdfs:Datatype .
+
+
+###  http://w3id.org/lindt/custom_datatypes#ucum
+cdt:ucum rdf:type rdfs:Datatype .
+
+
+###  http://w3id.org/lindt/custom_datatypes#volumemm3
+cdt:volumemm3 rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0915 x 2134mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d" .
+
+
+###  https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897
+<https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "0762 x 2032mm" ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897" .
+
+
+###  https://niras.dk/projects/0001/Levels/e3e052f9-0156-11d5-9301-0000863f27ad-00000137
+<https://niras.dk/projects/0001/Levels/e3e052f9-0156-11d5-9301-0000863f27ad-00000137> rdf:type owl:NamedIndividual ,
+                                                                                               bot:Storey ;
+                                                                                      rdfs:label "Level 1" ;
+                                                                                      rvt:guid "e3e052f9-0156-11d5-9301-0000863f27ad-00000137" ;
+                                                                                      bot:hasSpace <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> ,
+                                                                                                   <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> .
+
+
+###  https://niras.dk/projects/0001/Levels/458c0e49-01bb-11d5-9302-0000863f27ad-000002b6
+<https://niras.dk/projects/0001/Levels/458c0e49-01bb-11d5-9302-0000863f27ad-000002b6> rdf:type owl:NamedIndividual ,
+                                                                                               bot:Storey ;
+                                                                                      rdfs:label "Level 2" ;
+                                                                                      rvt:guid "458c0e49-01bb-11d5-9302-0000863f27ad-000002b6" .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Raum 1 1" ;
+                                                                                     nir:space_area " 18603000 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Raum 2 2" ;
+                                                                                     nir:space_area " 20249999,9999997 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Bad 3" ;
+                                                                                     nir:space_area " 4799999,99999998 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Treppenhaus 4" ;
+                                                                                     nir:space_area " 13051999,9999996 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Küche 5" ;
+                                                                                     nir:space_area " 9300000,00000007 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Room 6" ;
+                                                                                     nir:space_area " 2958000,00000006 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Room 7" ;
+                                                                                     nir:space_area " 2039999,99999998 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Raum 3 8" ;
+                                                                                     nir:space_area " 16100000 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4> .
+
+
+###  https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7
+<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Space ;
+                                                                                     rdfs:label "Diele 9" ;
+                                                                                     nir:space_area " 9484400,00000005 mm2 "^^cdt:ucum ;
+                                                                                     nir:space_volumen " 0 cm3"^^cdt:volumemm3 ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7" ;
+                                                                                     bot:adjacentElement <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66> ,
+                                                                                                         <https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 9620 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb" .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 11450 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962> ,
+                                                                                                      <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3> ,
+                                                                                                      <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 9620 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 11450 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d> ,
+                                                                                                      <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e> ,
+                                                                                                      <https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 4980 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28" .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 4160 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 3180 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1" .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 100mm" ;
+                                                                                     nir:length " 1810 mm"^^cdt:length ;
+                                                                                     nir:width " 100 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 260mm" ;
+                                                                                     nir:length " 4660 mm"^^cdt:length ;
+                                                                                     nir:width " 260 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 3310 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 5020 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4> ,
+                                                                                                      <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 5460 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4> .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 3310 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3" .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 60mm" ;
+                                                                                     nir:length " 1580 mm"^^cdt:length ;
+                                                                                     nir:width " 60 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e" .
+
+
+###  https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027
+<https://niras.dk/projects/0001/Walls/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027> rdf:type owl:NamedIndividual ,
+                                                                                              bot:Element ;
+                                                                                     rdfs:label "Generic - 160mm" ;
+                                                                                     nir:length " 1860 mm"^^cdt:length ;
+                                                                                     nir:width " 160 mm"^^cdt:length ;
+                                                                                     rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027" ;
+                                                                                     bot:hostsElement <https://niras.dk/projects/0001/Doors/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d> .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "1600 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "0700 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "1900 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "1600 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "1600 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "1600 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e" .
+
+
+###  https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8
+<https://niras.dk/projects/0001/Windows/52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8> rdf:type owl:NamedIndividual ,
+                                                                                                bot:Element ;
+                                                                                       rdfs:label "0700 x 1100mm" ;
+                                                                                       rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
