@@ -1,3 +1,20 @@
+# Copyright (c) 2018 W3C Linked Building Data Community Group
+# 
+# This copyright applies to the vocabulary specification and
+# accompanying documentation in RDF. Regarding underlying technology,
+# the ontology uses W3C's RDF technology, an open web standard that can be
+# freely used by anyone.
+#
+# Licensed under the Creative Commons Attribution Share Alike License 
+# (CC BY-SA 4.0); you may not use this file except in compliance with 
+# the license. You may obtain a copy of the license at:
+#
+#          https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Unless required by applicable law or agreed to in writing,
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
 # baseURI: http://rdf.bg/grundriss.ttl
 # imports: http://rdf.bg/geometry.ttl
 
