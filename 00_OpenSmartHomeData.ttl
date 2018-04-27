@@ -32,8 +32,8 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet#> .
-@base <https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet> .
+@prefix : <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
+@base <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet> .
 
 <https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
 dcterms:title "The Open Smart Home Data set ontology."@en ;
@@ -124,7 +124,7 @@ bot:Level1 rdf:type owl:NamedIndividual ,
         ssns:inCondition :Kitchen-temp-Sensor-OpCo .
         
 ::Kitchen-temp-Sensor-OpCo rdf:type owl:NamedIndividual ,
-                                    ssns: Condition ,
+                                    ssns:Condition ,
                                     schema:PropertyValue ;
         schema:minValue 0.0 ;
         schema:maxValue 40.0 ;
