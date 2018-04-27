@@ -19,42 +19,52 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix qudt-1-1: <http://qudt.org/1.1/schema/qudt#> .
-@prefix qudt-unit-1-1: <http://qudt.org/1.1/vocab/unit#> .
-@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
-@prefix dog: <http://elite.polito.it/ontologies/dogont.owl#> .
-@prefix bot: <https://w3id.org/bot#> .
-@prefix sosa: <http://www.w3.org/ns/sosa/> .
-@prefix ssn:  <http://www.w3.org/ns/ssn/> .
-@prefix seas: <https://w3id.org/seas/> .
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 
-@prefix osh: <https://www.w3id.org/ibp/OpenSmartHomeDataSet#> .
-@prefix : <https://niras.dk/projects/0001> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 
-<https://www.w3id.org/ibp/AlignOshAndRevit> rdf:type owl:Ontology ;
-            dcterms:title "Ontology to align OSH and Revit generated ontology."@en ;
-			dcterms:creator "Mads Holten Rasmussen" ;
+@prefix osh:      <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
+@prefix ifc4osh:  <http://linkedbuildingdata.net/ifc/resources20180427_085111/> .
+@prefix bot4osh:  <https://niras.dk/projects/0001/> .
+@prefix geom4osh: <http://rdf.bg/grundriss.ttl#> .
+
+@base <https://www.w3id.org/ibp/OSH/Alignment> .
+
+<https://www.w3id.org/ibp/OSH/Alignment> rdf:type owl:Ontology ;
+            dcterms:title "Ontology to align OSH and other modular assertional statements."@en ;
+			dcterms:contributor "Mads Holten Rasmussen" ;
 			dcterms:contributor "Pieter Pauwels" ;
-            dcterms:contributor "Georg Ferdinand Schneider" ;
+            dcterms:creator "Georg Ferdinand Schneider" ;
             dcterms:contributor "Peter Bonsma" ;
             dcterms:contributor "Jyrki Oraskari" ;
-            
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
 			dcterms:rights """Copyright (c) 2018, Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
 			dcterms:issued "2018-02-05"^^xsd:date ;
-			dcterms:modified "2017-02-15"^^xsd:date ;
+			dcterms:modified "2017-04-24"^^xsd:date ;
 			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> .
 
-osh:Level1              owl:sameAs <https://niras.dk/projects/0001/Levels/e3e052f9-0156-11d5-9301-0000863f27ad-00000137> .
-osh:Level2              owl:sameAs <https://niras.dk/projects/0001/Levels/458c0e49-01bb-11d5-9302-0000863f27ad-000002b6> .
-osh:Kitchen             owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> .
-osh:Lobby               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> .
-osh:Room1               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> .
-osh:Room2               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> .
-osh:Room3               owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> .
-#osh:Toilet              owl:sameAs  .
-#osh:RoomBeforeToilet    owl:sameAs  .
-osh:Staircase           owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> .
-osh:Bathroom            owl:sameAs <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> .
+# Use of skos:related to establish symmetric associations
+skos:related rdf:type owl:ObjectProperty , owl:SymmetricProperty .
+
+osh:Level1              skos:related ifc4osh:IfcBuildingStorey_132 ,
+ 			 <https://niras.dk/projects/0001/Levels/e3e052f9-0156-11d5-9301-0000863f27ad-00000137> .
+osh:Level2              skos:related ifc4osh:IfcBuildingStorey_138 ,
+ 			 <https://niras.dk/projects/0001/Levels/458c0e49-01bb-11d5-9302-0000863f27ad-000002b> .
+osh:Kitchen             skos:related ifc4osh:IfcSpace_311 ,
+ 			 <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> .
+osh:Lobby               skos:related ifc4osh:IfcSpace_458 ,
+ 			 <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> .
+osh:Room1               skos:related ifc4osh:IfcSpace_165 ,
+                        <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> .
+osh:Room2               skos:related ifc4osh:IfcSpace_215 ,
+ 			<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> .
+osh:Room3               skos:related ifc4osh:IfcSpace_407 ,
+ 			<https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> .
+osh:Toilet              skos:related ifc4osh:IfcSpace_375 ,
+            <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064> .
+osh:RoomBeforeToilet    skos:related ifc4osh:IfcSpace_343 ,
+            <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061> .
+osh:Staircase           skos:related ifc4osh:IfcSpace_279 ,
+ 			 <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> .
+osh:Bathroom            skos:related ifc4osh:IfcSpace_247 ,
+ 			 <https://niras.dk/projects/0001/Rooms/05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> .

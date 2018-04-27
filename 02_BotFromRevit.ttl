@@ -15,7 +15,7 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-@prefix : <https://niras.dk/projects/0001> .
+@prefix bot4osh: <https://niras.dk/projects/0001/> .
 @prefix bot: <https://w3id.org/bot#> .
 @prefix cdt: <http://w3id.org/lindt/custom_datatypes#> .
 @prefix nir: <https://Niras.dk/XXXX#> .
@@ -25,11 +25,28 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
-[ rdf:type owl:Ontology ;
-   owl:imports <https://w3id.org/bot/0.2.0>
- ] .
+<https://niras.dk/projects/0001> rdf:type owl:Ontology ;
+            dcterms:title "Ontology containins a BOT version of the Revit file of the flat researched in the open smart home data set."@en ;
+			dcterms:description """This ontology holds instances generated using the revit to bot converter developed by Mads Holten Rasmussen"""@en  ;
+			dcterms:contributor "Georg Ferdinand Schneider" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:creator "Mads Holten Rasmussen" ;
+            dcterms:contributor "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            rdfs:label "bot4osh"@en ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
+			rdfs:comment """BOT version of the Revit file provided with the OSH data set."""@en ;
+			dcterms:identifier "https://niras.dk/projects/0001/" ;
+			dcterms:rights """Copyright (c) 2018, W3C Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2018-04-25"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> ;
+			vann:preferredNamespacePrefix "bot4osh" ;
+			vann:preferredNamespaceUri <https://niras.dk/projects/0001/> ;
+            owl:imports <https://w3id.org/bot/0.2.0> .
 
 #################################################################
 #    Annotation properties

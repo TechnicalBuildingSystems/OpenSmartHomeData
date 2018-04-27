@@ -19,19 +19,36 @@
 # imports: http://rdf.bg/geometry.ttl
 
 @prefix : <http://rdf.bg/grundriss.ttl#> .
+@prefix geom4osh: <http://rdf.bg/grundriss.ttl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix geometry: <http://rdf.bg/geometry.ttl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
-<http://rdf.bg/grundriss.ttl>
-  rdf:type owl:Ontology ;
-  owl:imports <http://rdf.bg/geometry.ttl> ;
-.
-:i3121426967152
-  a geometry:Dummy ;
-.
+<http://rdf.bg/grundriss.ttl> rdf:type owl:Ontology ;
+            dcterms:title "The IFC of the flat researched in the open smart home data set converted to GEOM ontology by Peter Bonsma."@en ;
+			dcterms:description """This ontology holds instances generated using the IFC to geom converter developed by Peter Bonsma"""@en  ;
+			dcterms:creator "Georg Ferdinand Schneider" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:contributor "Mads Holten Rasmussen" ;
+            dcterms:creator "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            rdfs:label "geom4osh"@en ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
+			rdfs:comment """GEOM version of the IFC file provided with the OSH data set."""@en ;
+			dcterms:identifier "http://rdf.bg/grundriss.ttl#" ;
+			dcterms:rights """Copyright (c) 2018, W3C Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2018-04-25"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> ;
+			vann:preferredNamespacePrefix "geom4osh" ;
+			vann:preferredNamespaceUri <http://rdf.bg/grundriss.ttl#> ;
+            owl:imports <http://rdf.bg/geometry.ttl> .
+
+:i3121426967152 a geometry:Dummy .
 :i3121426967296
   a geometry:Dummy ;
 .

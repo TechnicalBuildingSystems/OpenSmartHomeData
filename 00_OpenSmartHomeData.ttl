@@ -26,14 +26,16 @@
 @prefix bot: <https://w3id.org/bot#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ssn:  <http://www.w3.org/ns/ssn/> .
+@prefix ssns: <http://www.w3.org/ns/ssn/systems/> .
+@prefix schema: <http://schema.org/> .
 @prefix seas: <https://w3id.org/seas/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://www.w3id.org/ibp/OpenSmartHomeDataSet#> .
-@base <https://www.w3id.org/ibp/OpenSmartHomeDataSet> .
+@prefix : <https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet#> .
+@base <https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet> .
 
-<https://www.w3id.org/ibp/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
+<https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
 dcterms:title "The Open Smart Home Data set ontology."@en ;
 			dcterms:description """The ontology holds a description of a smart home data set including measurement data obtained from physical sensors and data describing the flat they have been measured"""@en  ;
 			dcterms:creator "Georg Ferdinand Schneider" ;
@@ -42,20 +44,22 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
             dcterms:contributor "Mads Holten Rasmussen" ;
             dcterms:contributor "Peter Bonsma" ;
             dcterms:contributor "Jyrki Oraskari" ;
-            rdfs:label "OSH"@en ;
+            rdfs:label "osh"@en ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
 			rdfs:comment "The open smart home data set ontology holds static and dynamic data of a real world smart home system."@en ;
-			dcterms:identifier "https://w3id.org/ibp/OpenSmartHomeDataSet#" ;
+			dcterms:identifier "https://w3id.org/ibp/OSH/OpenSmartHomeDataSet#" ;
 			dcterms:rights """Copyright (c) 2018, Fraunhofer Institute for Building Physics, Nuremberg, Germany. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
 			dcterms:issued "2018-02-05"^^xsd:date ;
-			dcterms:modified "2017-02-15"^^xsd:date ;
+			dcterms:modified "2018-04-25"^^xsd:date ;
 			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> ;
 			vann:preferredNamespacePrefix "osh" ;
-			vann:preferredNamespaceUri <https://w3id.org/ibp/OpenSmartHomeDataSet#> .
+			vann:preferredNamespaceUri <https://w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
 
 :Site1  rdf:type owl:NamedIndividual ,
                 bot:Site ;
         rdfs:label "Site of the building"@en ;       
         :hasBuilding :Building1 .
+        
 bot:Level1 rdf:type owl:NamedIndividual ,
                     bot:Storey ;
         rdfs:label "Storey of the building"@en .
@@ -111,9 +115,21 @@ bot:Level1 rdf:type owl:NamedIndividual ,
 :Kitchen-temp-Sensor rdf:type owl:NamedIndividual ,
                               dog:TemperatureSensor ,
                               sosa:Sensor ;
+        ssns:hasOperatingRange :Kitchen-temp-Sensor-OpRa ;
         sosa:observes :Kitchen-temp ;
         seas:connectsAt :KITemp-CP .
-                 
+
+:Kitchen-temp-Sensor-OpRa rdf:type owl:NamedIndividual ,
+                                   ssns:OperatingRange ;
+        ssns:inCondition :Kitchen-temp-Sensor-OpCo .
+        
+::Kitchen-temp-Sensor-OpCo rdf:type owl:NamedIndividual ,
+                                    ssns: Condition ,
+                                    schema:PropertyValue ;
+        schema:minValue 0.0 ;
+        schema:maxValue 40.0 ;
+        schema:unitCode om:degreeCelsius .
+
 :KITemp-CP rdf:type owl:NamedIndividual ,
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "KITemp" .
