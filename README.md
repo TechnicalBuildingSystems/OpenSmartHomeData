@@ -17,6 +17,7 @@ The files have been prepared by the contribution of the following persons:
 - Mads Holten Rasmussen
 - Peter Bonsma
 - Pieter Pauwels
+- Jyrki Oraskari
 - Georg Ferdinand Schneider
 
 ## Contributing
