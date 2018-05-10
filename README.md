@@ -10,6 +10,10 @@ All files and their documentation within this repository are licensed under the 
 
 Unless required by applicable law or agreed to in writing, distributed under the License is distributed on an "AS IS" ASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
+## Citation
+
+Please refer to publications and the DOI registered for this repository when using the data in your research.
+
 ## Contributors
 
 The files have been prepared by the contribution of the following persons:
