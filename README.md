@@ -12,7 +12,7 @@ Unless required by applicable law or agreed to in writing, distributed under the
 
 ## Citation
 
-Please refer to publications and the DOI registered for this repository when using the data in your research.
+Please refer to publications and the DOI [![DOI](https://zenodo.org/badge/120334357.svg)](https://zenodo.org/badge/latestdoi/120334357) registered for this repository when using the data in your research.
 
 ## Contributors
 
