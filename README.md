@@ -32,8 +32,8 @@ Filename | Description
 --- | --- 
 MeasurementTurtle | RDF dump of the measurements made using a real world smart home system as RDF dumps in ttl format
 00_OpenSmartHomeData.ttl | Meta data describing the observations made by the smart home system measurements
-01_LinkOshAndRevit.ttl | Links linking instances from 00_OpenSmartHomeData.ttl and 02_BotFromRevit.ttl
-02_BotFromRevit.ttl | BOT export from Revit file (05_Flat.rvt)
+01_LinkOsh.ttl | Links linking instances from 00_OpenSmartHomeData.ttl and 02_BotFromRevit.ttl
+02_GeoFromRevit.ttl | BOT export from Revit file (05_Flat.rvt)
 02_PropsFromRevit.ttl | PROPS export from Revit file (05_Flat.rvt)
 02_GeoFromRevit.ttl | 2D space boundaries from Revit file (05_Flat.rvt)
 03_GEOM.ttl | GEOM export generated from the IFC file (04_Flat.ifc)

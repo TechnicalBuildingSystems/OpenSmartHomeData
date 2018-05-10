@@ -1,8 +1,8 @@
 # Copyright (c) 2018 Fraunhofer Institute for Building Physics
 # 
-# This copyright applies to the OSH vocabulary specification and
+# This copyright applies to the osh vocabulary specification and
 # accompanying documentation in RDF. Regarding underlying technology,
-# OSH uses W3C's RDF technology, an open web standard that can be
+# osh uses W3C's RDF technology, an open web standard that can be
 # freely used by anyone.
 #
 # Licensed under the Creative Commons Attribution Share Alike License 
@@ -35,7 +35,7 @@
 @prefix : <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
 @base <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet> .
 
-<https://www.w3id.org/ibp/OSH/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
+<https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
 dcterms:title "The Open Smart Home Data set ontology."@en ;
 			dcterms:description """The ontology holds a description of a smart home data set including measurement data obtained from physical sensors and data describing the flat they have been measured"""@en  ;
 			dcterms:creator "Georg Ferdinand Schneider" ;
@@ -47,7 +47,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
             rdfs:label "osh"@en ;
             rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
 			rdfs:comment "The open smart home data set ontology holds static and dynamic data of a real world smart home system."@en ;
-			dcterms:identifier "https://w3id.org/ibp/OSH/OpenSmartHomeDataSet#" ;
+			dcterms:identifier "https://w3id.org/ibp/osh/OpenSmartHomeDataSet#" ;
 			dcterms:rights """Copyright (c) 2018, Fraunhofer Institute for Building Physics, Nuremberg, Germany. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
 			dcterms:issued "2018-02-05"^^xsd:date ;
 			dcterms:modified "2018-04-25"^^xsd:date ;
@@ -58,16 +58,21 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
 :Site1  rdf:type owl:NamedIndividual ,
                 bot:Site ;
         rdfs:label "Site of the building"@en ;       
-        :hasBuilding :Building1 .
+        bot:hasBuilding :Building1 .
         
-bot:Level1 rdf:type owl:NamedIndividual ,
+:Level1 rdf:type owl:NamedIndividual ,
                     bot:Storey ;
-        rdfs:label "Storey of the building"@en .
+        rdfs:label "Ground floor of the building"@en .
+
+:Level2 rdf:type owl:NamedIndividual ,
+                    bot:Storey ;
+        rdfs:label "First floor of the building"@en .
         
 :Building1 rdf:type owl:NamedIndividual ,
                         bot:Building ;
         rdfs:label "Real building with smart home system."@en ;
-           bot:hasStorey :Level1 ;
+           bot:hasStorey :Level1 ,
+                         :Level2 ;
            bot:hasSpace  :Kitchen ,
                          :Lobby ,
                          :Room1 ,

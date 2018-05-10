@@ -1,0 +1,70 @@
+# Copyright (c) 2018 W3C Linked Building Data Community Group
+# 
+# This copyright applies to the vocabulary specification and
+# accompanying documentation in RDF. Regarding underlying technology,
+# the ontology uses W3C's RDF technology, an open web standard that can be
+# freely used by anyone.
+#
+# Licensed under the Creative Commons Attribution Share Alike License 
+# (CC BY-SA 4.0); you may not use this file except in compliance with 
+# the license. You may obtain a copy of the license at:
+#
+#          https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Unless required by applicable law or agreed to in writing,
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix osh:      <https://w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
+@prefix ifc4osh:  <http://linkedbuildingdata.net/ifc/resources20180427_085111/> .
+@prefix bot4osh:  <https://w3id.org/ibp/bot4osh/> .
+@prefix geom4osh: <http://rdf.bg/grundriss.ttl#> .
+
+@base <https://w3id.org/ibp/osh/Alignment> .
+
+<https://w3id.org/ibp/osh/Alignment> rdf:type owl:Ontology ;
+            dcterms:title "Ontology to align OSH and other modular assertional statements."@en ;
+			dcterms:contributor "Mads Holten Rasmussen" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:creator "Georg Ferdinand Schneider" ;
+            dcterms:contributor "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
+			dcterms:rights """Copyright (c) 2018, Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2017-04-24"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> .
+
+# Use of skos:related to establish symmetric associations
+skos:related rdf:type owl:ObjectProperty , owl:SymmetricProperty .
+
+osh:Level1              skos:related ifc4osh:IfcBuildingStorey_132 ,
+ 			 bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 .
+osh:Level2              skos:related ifc4osh:IfcBuildingStorey_138 ,
+ 			 bot4osh:level_458c0e49-01bb-11d5-9302-0000863f27ad-000002b .
+osh:Kitchen             skos:related ifc4osh:IfcSpace_311 ,
+ 			 bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e .
+osh:Lobby               skos:related ifc4osh:IfcSpace_458 ,
+ 			 bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 .
+osh:Room1               skos:related ifc4osh:IfcSpace_165 ,
+            bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f .
+osh:Room2               skos:related ifc4osh:IfcSpace_215 ,
+ 			bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 .
+osh:Room3               skos:related ifc4osh:IfcSpace_407 ,
+ 			bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 .
+osh:Toilet              skos:related ifc4osh:IfcSpace_375 ,
+            bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 .
+osh:RoomBeforeToilet    skos:related ifc4osh:IfcSpace_343 ,
+            bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 .
+osh:Staircase           skos:related ifc4osh:IfcSpace_279 ,
+ 			 bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 .
+osh:Bathroom            skos:related ifc4osh:IfcSpace_247 ,
+ 			 bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 .

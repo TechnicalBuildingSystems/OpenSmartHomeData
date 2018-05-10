@@ -29,9 +29,9 @@
 <http://linkedbuildingdata.net/ifc/resources20180427_085111> rdf:type owl:Ontology ;
             dcterms:title "The IFC of the flat researched in the open smart home data set."@en ;
 			dcterms:description """This ontology holds instances generated using the RDF to IFC converter provided here https://github.com/IDLabResearch/IFC-to-RDF-converter"""@en  ;
-			dcterms:creator "Georg Ferdinand Schneider" ;
-			dcterms:creator <https://www.researchgate.net/profile/Georg_Schneider3> ;
-			dcterms:contributor "Pieter Pauwels" ;
+			dcterms:contributor "Georg Ferdinand Schneider" ;
+			dcterms:contributor <https://www.researchgate.net/profile/Georg_Schneider3> ;
+			dcterms:creator "Pieter Pauwels" ;
             dcterms:contributor "Mads Holten Rasmussen" ;
             dcterms:contributor "Peter Bonsma" ;
             dcterms:contributor "Jyrki Oraskari" ;

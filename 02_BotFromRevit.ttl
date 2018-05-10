@@ -1,218 +1,259 @@
+# Copyright (c) 2018 W3C Linked Building Data Community Group
+# 
+# This copyright applies to the vocabulary specification and
+# accompanying documentation in RDF. Regarding underlying technology,
+# the ontology uses W3C's RDF technology, an open web standard that can be
+# freely used by anyone.
+#
+# Licensed under the Creative Commons Attribution Share Alike License 
+# (CC BY-SA 4.0); you may not use this file except in compliance with 
+# the license. You may obtain a copy of the license at:
+#
+#          https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Unless required by applicable law or agreed to in writing,
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix bot:	<https://w3id.org/bot#> .
-@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rvt:	<https://example.org/rvt#> .
-@prefix inst:	<http://OpenSmartHomeData/P0001/> .
+
+@prefix bot4osh:  <https://w3id.org/ibp/bot4osh/> .
+
+
+@base <https://w3id.org/ibp/osh/bot4osh> .
+
+<https://w3id.org/ibp/osh/bot4osh> rdf:type owl:Ontology ;
+            dcterms:title "Ontology hosting bot elements exported from revit."@en ;
+			dcterms:creator "Mads Holten Rasmussen" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:contributor "Georg Ferdinand Schneider" ;
+            dcterms:contributor "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
+			dcterms:rights """Copyright (c) 2018, Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2017-05-10"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> .
+
+
 
 ### ELEMENTS ###
 
 # WALLS
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e" .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027" .
 
 # WINDOWS & DOORS
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d" .
-inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897
+bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897
 	a bot:Element ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e" .
-inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8
+bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8
 	a bot:Element ;
 	rvt:guid "52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8" .
 
 ### STOREYS ###
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137
 	a bot:Storey ;
 	rvt:guid "e3e052f9-0156-11d5-9301-0000863f27ad-00000137" .
-inst:level_458c0e49-01bb-11d5-9302-0000863f27ad-000002b6
+bot4osh:level_458c0e49-01bb-11d5-9302-0000863f27ad-000002b6
 	a bot:Storey ;
 	rvt:guid "458c0e49-01bb-11d5-9302-0000863f27ad-000002b6" .
 
 ### SPACES ###
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175" .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7
 	a bot:Space ;
 	rvt:guid "05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7" .
 
 ### RELATIONSHIPS ###
 
 # WINDOWS AND DOORS HOSTED IN A WALL
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 bot:hostsElement inst:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4 .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e .
-inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement inst:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1d4 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e271 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e345 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e3d9 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e7b4 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e823 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e84d .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 bot:hostsElement bot4osh:door_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e897 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e962 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004e9d3 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ea0d .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eab4 .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb0d .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004eb9e .
+bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 bot:hostsElement bot4osh:window_52a273d7-fd5d-4d87-b824-a5c3f59901cc-0004ebd8 .
 
 # ROOMS AT EACH STOREY
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 .
-inst:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 .
+bot4osh:level_e3e052f9-0156-11d5-9301-0000863f27ad-00000137 bot:hasSpace bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 .
 
 # ELEMENTS ADJACENT TO ROOMS
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
-inst:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement inst:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d93d .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dae1 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d8eb .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dcc3 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e027 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d96f .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db64 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dbc4 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004d9a0 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da28 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc66 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004dc15 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004de3e .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004db10 .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 bot:adjacentElement bot4osh:wall_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004da52 .

@@ -28,10 +28,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
+@base <http://rdf.bg/grundriss.ttl> .
+
 <http://rdf.bg/grundriss.ttl> rdf:type owl:Ontology ;
             dcterms:title "The IFC of the flat researched in the open smart home data set converted to GEOM ontology by Peter Bonsma."@en ;
 			dcterms:description """This ontology holds instances generated using the IFC to geom converter developed by Peter Bonsma"""@en  ;
-			dcterms:creator "Georg Ferdinand Schneider" ;
+			dcterms:contributor "Georg Ferdinand Schneider" ;
 			dcterms:contributor "Pieter Pauwels" ;
             dcterms:contributor "Mads Holten Rasmussen" ;
             dcterms:creator "Peter Bonsma" ;

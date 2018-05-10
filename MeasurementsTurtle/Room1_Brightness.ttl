@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 @prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
-@prefix osh: <https://www.w3id.org/ibp/OpenSmartHomeDataSet#> .
+@prefix osh: <https://w3id.org/ibp/OpenSmartHomeDataSet#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix qudt: <http://qudt.org/1.1/schema/qudt#> .
 @prefix qudtunit: <http://qudt.org/1.1/vocab/unit#> .

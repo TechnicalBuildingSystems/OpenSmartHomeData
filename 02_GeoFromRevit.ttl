@@ -1,12 +1,53 @@
+# Copyright (c) 2018 W3C Linked Building Data Community Group
+# 
+# This copyright applies to the vocabulary specification and
+# accompanying documentation in RDF. Regarding underlying technology,
+# the ontology uses W3C's RDF technology, an open web standard that can be
+# freely used by anyone.
+#
+# Licensed under the Creative Commons Attribution Share Alike License 
+# (CC BY-SA 4.0); you may not use this file except in compliance with 
+# the license. You may obtain a copy of the license at:
+#
+#          https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Unless required by applicable law or agreed to in writing,
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix props:	<https://w3id.org/props#> .
 @prefix geo:	<http://www.opengis.net/ont/geosparql#> .
 
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f> props:spaceBoundary "POLYGON((-7550.86349757 5556.40843218, -7550.86349757 1656.40843218, -4960.86349757 1656.40843218, -2780.86349757 1656.40843218, -2780.86349757 2506.40843218, -2780.86349757 5556.40843218, -7550.86349757 5556.40843218))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052> props:spaceBoundary "POLYGON((3639.13650243 5556.40843218, -860.863497573 5556.40843218, -860.863497573 2506.40843218, -860.863497573 1056.40843218, -783.093897573 1056.40843218, 139.136502427 1056.40843218, 3639.13650243 1056.40843218, 3639.13650243 5556.40843218))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055> props:spaceBoundary "POLYGON((-1020.86349757 5556.40843218, -2620.86349757 5556.40843218, -2620.86349757 2556.40843218, -1020.86349757 2556.40843218, -1020.86349757 5556.40843218))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058> props:spaceBoundary "POLYGON((-7550.86349757 1396.40843218, -7550.86349757 -3803.59156782, -5040.86349757 -3803.59156782, -5040.86349757 -2523.59156782, -5040.86349757 -623.591567823, -5040.86349757 1396.40843218, -7550.86349757 1396.40843218))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e> props:spaceBoundary "POLYGON((-3020.86349757 -3803.59156782, -20.8634975731 -3803.59156782, -20.8634975731 -703.591567823, -920.863497573 -703.591567823, -3020.86349757 -703.591567823, -3020.86349757 -2523.59156782, -3020.86349757 -3803.59156782))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061> props:spaceBoundary "POLYGON((-3180.86349757 -703.591567823, -4880.86349757 -703.591567823, -4880.86349757 -2443.59156782, -3180.86349757 -2443.59156782, -3180.86349757 -703.591567823))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064> props:spaceBoundary "POLYGON((-4880.86349757 -3803.59156782, -3180.86349757 -3803.59156782, -3180.86349757 -2603.59156782, -4880.86349757 -2603.59156782, -4880.86349757 -3803.59156782))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175> props:spaceBoundary "POLYGON((3639.13650243 -3803.59156782, 3639.13650243 796.408432177, 139.136502427 796.408432177, 139.136502427 -470.581967823, 139.136502427 -623.591567823, 139.136502427 -3803.59156782, 3639.13650243 -3803.59156782))"^^geo:wktLiteral .
-<http://OpenSmartHomeData/P0001/room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7> props:spaceBoundary "POLYGON((-2620.86349757 1396.40843218, -4880.86349757 1396.40843218, -4880.86349757 -543.591567823, -3100.86349757 -543.591567823, -920.863497573 -543.591567823, -920.863497573 773.398832177, -920.863497573 926.408432177, -920.863497573 2456.40843218, -940.863497573 2456.40843218, -2620.86349757 2456.40843218, -2620.86349757 1396.40843218))"^^geo:wktLiteral .
+@prefix bot4osh:  <https://w3id.org/ibp/bot4osh/> .
+
+
+@base <https://w3id.org/ibp/osh/bot4osh> .
+
+<https://w3id.org/ibp/osh/bot4osh> rdf:type owl:Ontology ;
+            dcterms:title "Ontology hosting space boundaries exported from revit."@en ;
+			dcterms:creator "Mads Holten Rasmussen" ;
+			dcterms:contributor "Pieter Pauwels" ;
+            dcterms:contributor "Georg Ferdinand Schneider" ;
+            dcterms:contributor "Peter Bonsma" ;
+            dcterms:contributor "Jyrki Oraskari" ;
+            rdfs:seeAlso <https://github.com/TechnicalBuildingSystems/OpenSmartHomeData> ;
+			dcterms:rights """Copyright (c) 2018, Linked Building Data Community Group. This ontology is distributed under a Creative Commons Attribution Share Alike License (CC BY-SA 4.0) http://creativecommons.org/licenses/by-sa/4.0"""@en ;
+			dcterms:issued "2018-02-05"^^xsd:date ;
+			dcterms:modified "2017-05-10"^^xsd:date ;
+			dcterms:license <http://creativecommons.org/licenses/by-sa/4.0> .
+
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e04f props:spaceBoundary "POLYGON((-7550.86349757 5556.40843218, -7550.86349757 1656.40843218, -4960.86349757 1656.40843218, -2780.86349757 1656.40843218, -2780.86349757 2506.40843218, -2780.86349757 5556.40843218, -7550.86349757 5556.40843218))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e052 props:spaceBoundary "POLYGON((3639.13650243 5556.40843218, -860.863497573 5556.40843218, -860.863497573 2506.40843218, -860.863497573 1056.40843218, -783.093897573 1056.40843218, 139.136502427 1056.40843218, 3639.13650243 1056.40843218, 3639.13650243 5556.40843218))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e055 props:spaceBoundary "POLYGON((-1020.86349757 5556.40843218, -2620.86349757 5556.40843218, -2620.86349757 2556.40843218, -1020.86349757 2556.40843218, -1020.86349757 5556.40843218))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e058 props:spaceBoundary "POLYGON((-7550.86349757 1396.40843218, -7550.86349757 -3803.59156782, -5040.86349757 -3803.59156782, -5040.86349757 -2523.59156782, -5040.86349757 -623.591567823, -5040.86349757 1396.40843218, -7550.86349757 1396.40843218))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e05e props:spaceBoundary "POLYGON((-3020.86349757 -3803.59156782, -20.8634975731 -3803.59156782, -20.8634975731 -703.591567823, -920.863497573 -703.591567823, -3020.86349757 -703.591567823, -3020.86349757 -2523.59156782, -3020.86349757 -3803.59156782))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e061 props:spaceBoundary "POLYGON((-3180.86349757 -703.591567823, -4880.86349757 -703.591567823, -4880.86349757 -2443.59156782, -3180.86349757 -2443.59156782, -3180.86349757 -703.591567823))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e064 props:spaceBoundary "POLYGON((-4880.86349757 -3803.59156782, -3180.86349757 -3803.59156782, -3180.86349757 -2603.59156782, -4880.86349757 -2603.59156782, -4880.86349757 -3803.59156782))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e175 props:spaceBoundary "POLYGON((3639.13650243 -3803.59156782, 3639.13650243 796.408432177, 139.136502427 796.408432177, 139.136502427 -470.581967823, 139.136502427 -623.591567823, 139.136502427 -3803.59156782, 3639.13650243 -3803.59156782))"^^geo:wktLiteral .
+bot4osh:room_05b047f8-dd03-4cd9-a50c-d5d18c6f7ab7-0004e1c7 props:spaceBoundary "POLYGON((-2620.86349757 1396.40843218, -4880.86349757 1396.40843218, -4880.86349757 -543.591567823, -3100.86349757 -543.591567823, -920.863497573 -543.591567823, -920.863497573 773.398832177, -920.863497573 926.408432177, -920.863497573 2456.40843218, -940.863497573 2456.40843218, -2620.86349757 2456.40843218, -2620.86349757 1396.40843218))"^^geo:wktLiteral .
