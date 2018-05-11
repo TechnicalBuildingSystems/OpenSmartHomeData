@@ -1,0 +1,22 @@
+{
+  "name": "stardog-batch-loader",
+  "version": "1.0.0",
+  "description": "Loads all the ttl-files at the given paths into a Stardog triplestore",
+  "main": "index.js",
+  "author": "Mads Holten Rasmussen [mhoras@byg.dtu.dk]",
+  "scripts": {
+    "test": "mocha --reporter spec -t 100000"
+  },
+  "keywords": [
+    "BIM",
+    "LBD",
+    "ECPPM"
+  ],
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "stardog": "^1.2.4",
+    "mocha": "^5.0.5",
+    "chai": "^4.1.2"
+  }
+}
