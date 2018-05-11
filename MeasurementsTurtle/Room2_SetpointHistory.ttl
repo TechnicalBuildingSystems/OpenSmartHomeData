@@ -1,19 +1,5 @@
-# Copyright (c) 2018 Fraunhofer Institute for Building Physics
-# 
-# This copyright applies to the RDF data provided here
-#
-# Licensed under the Creative Commons Attribution Share Alike License 
-# (CC BY-SA 4.0); you may not use this file except in compliance with 
-# the license. You may obtain a copy of the license at:
-#
-#          https://creativecommons.org/licenses/by-sa/4.0/
-#
-# Unless required by applicable law or agreed to in writing,
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
 @prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
-@prefix osh: <https://w3id.org/ibp/OpenSmartHomeDataSet#> .
+@prefix osh: <https://www.w3id.org/ibp/OpenSmartHomeDataSet#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix qudt: <http://qudt.org/1.1/schema/qudt#> .
 @prefix qudtunit: <http://qudt.org/1.1/vocab/unit#> .
@@ -24,7 +10,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-osh:obs0 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs0 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -34,7 +20,7 @@ osh:obs0 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-09T01:00:18+01:00"^^xsd:dateTime .
 
-osh:obs1 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs1 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -44,7 +30,7 @@ osh:obs1 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-09T08:30:23+01:00"^^xsd:dateTime .
 
-osh:obs10 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs10 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -54,7 +40,7 @@ osh:obs10 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T16:24:52+01:00"^^xsd:dateTime .
 
-osh:obs100 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs100 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -64,7 +50,7 @@ osh:obs100 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T06:08:58+02:00"^^xsd:dateTime .
 
-osh:obs101 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs101 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -74,7 +60,7 @@ osh:obs101 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T09:30:24+02:00"^^xsd:dateTime .
 
-osh:obs102 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs102 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -84,7 +70,7 @@ osh:obs102 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T18:02:54+02:00"^^xsd:dateTime .
 
-osh:obs103 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs103 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -94,7 +80,7 @@ osh:obs103 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T21:07:34+02:00"^^xsd:dateTime .
 
-osh:obs104 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs104 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -104,7 +90,7 @@ osh:obs104 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-29T01:19:59+02:00"^^xsd:dateTime .
 
-osh:obs105 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs105 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -114,7 +100,7 @@ osh:obs105 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-29T22:49:07+02:00"^^xsd:dateTime .
 
-osh:obs106 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs106 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -124,7 +110,7 @@ osh:obs106 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-29T23:27:44+02:00"^^xsd:dateTime .
 
-osh:obs107 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs107 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -134,7 +120,7 @@ osh:obs107 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-29T23:30:18+02:00"^^xsd:dateTime .
 
-osh:obs108 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs108 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -144,7 +130,7 @@ osh:obs108 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-29T23:36:55+02:00"^^xsd:dateTime .
 
-osh:obs109 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs109 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -154,7 +140,7 @@ osh:obs109 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-30T04:36:53+02:00"^^xsd:dateTime .
 
-osh:obs11 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs11 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -164,7 +150,7 @@ osh:obs11 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T22:30:34+01:00"^^xsd:dateTime .
 
-osh:obs110 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs110 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -174,7 +160,7 @@ osh:obs110 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-30T06:07:43+02:00"^^xsd:dateTime .
 
-osh:obs111 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs111 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -184,7 +170,7 @@ osh:obs111 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-30T09:30:08+02:00"^^xsd:dateTime .
 
-osh:obs112 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs112 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -194,7 +180,7 @@ osh:obs112 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-30T17:11:56+02:00"^^xsd:dateTime .
 
-osh:obs113 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs113 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -204,7 +190,7 @@ osh:obs113 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-30T23:30:29+02:00"^^xsd:dateTime .
 
-osh:obs114 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs114 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -214,7 +200,7 @@ osh:obs114 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-31T02:02:52+02:00"^^xsd:dateTime .
 
-osh:obs115 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs115 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -224,7 +210,7 @@ osh:obs115 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-31T06:45:00+02:00"^^xsd:dateTime .
 
-osh:obs116 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs116 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -234,7 +220,7 @@ osh:obs116 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-31T09:30:20+02:00"^^xsd:dateTime .
 
-osh:obs117 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs117 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -244,7 +230,7 @@ osh:obs117 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-31T18:29:06+02:00"^^xsd:dateTime .
 
-osh:obs118 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs118 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -254,7 +240,7 @@ osh:obs118 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-31T23:30:27+02:00"^^xsd:dateTime .
 
-osh:obs119 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs119 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -264,7 +250,7 @@ osh:obs119 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-01T02:45:05+02:00"^^xsd:dateTime .
 
-osh:obs12 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs12 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -274,7 +260,7 @@ osh:obs12 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T08:53:15+01:00"^^xsd:dateTime .
 
-osh:obs120 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs120 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -284,7 +270,7 @@ osh:obs120 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-01T10:38:44+02:00"^^xsd:dateTime .
 
-osh:obs121 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs121 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -294,7 +280,7 @@ osh:obs121 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-01T11:10:15+02:00"^^xsd:dateTime .
 
-osh:obs122 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs122 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -304,7 +290,7 @@ osh:obs122 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-03T03:31:31+02:00"^^xsd:dateTime .
 
-osh:obs123 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs123 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -314,7 +300,7 @@ osh:obs123 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-04T02:57:08+02:00"^^xsd:dateTime .
 
-osh:obs124 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs124 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -324,7 +310,7 @@ osh:obs124 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-04T09:05:50+02:00"^^xsd:dateTime .
 
-osh:obs125 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs125 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -334,7 +320,7 @@ osh:obs125 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-06T04:32:45+02:00"^^xsd:dateTime .
 
-osh:obs126 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs126 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -344,7 +330,7 @@ osh:obs126 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-08T05:00:38+02:00"^^xsd:dateTime .
 
-osh:obs127 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs127 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -354,7 +340,7 @@ osh:obs127 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-10T04:37:17+02:00"^^xsd:dateTime .
 
-osh:obs128 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs128 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -364,7 +350,7 @@ osh:obs128 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-12T23:30:16+02:00"^^xsd:dateTime .
 
-osh:obs129 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs129 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -374,7 +360,7 @@ osh:obs129 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-12T23:35:23+02:00"^^xsd:dateTime .
 
-osh:obs13 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs13 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -384,7 +370,7 @@ osh:obs13 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T14:36:24+01:00"^^xsd:dateTime .
 
-osh:obs130 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs130 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -394,7 +380,7 @@ osh:obs130 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-13T03:03:18+02:00"^^xsd:dateTime .
 
-osh:obs131 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs131 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -404,7 +390,7 @@ osh:obs131 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-13T06:04:56+02:00"^^xsd:dateTime .
 
-osh:obs132 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs132 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -414,7 +400,7 @@ osh:obs132 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-13T09:30:30+02:00"^^xsd:dateTime .
 
-osh:obs133 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs133 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -424,7 +410,7 @@ osh:obs133 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-13T17:30:24+02:00"^^xsd:dateTime .
 
-osh:obs134 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs134 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -434,7 +420,7 @@ osh:obs134 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-13T23:30:32+02:00"^^xsd:dateTime .
 
-osh:obs135 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs135 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -444,7 +430,7 @@ osh:obs135 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-14T04:39:52+02:00"^^xsd:dateTime .
 
-osh:obs136 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs136 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -454,7 +440,7 @@ osh:obs136 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-14T06:00:31+02:00"^^xsd:dateTime .
 
-osh:obs137 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs137 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -464,7 +450,7 @@ osh:obs137 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-14T09:30:07+02:00"^^xsd:dateTime .
 
-osh:obs138 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs138 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -474,7 +460,7 @@ osh:obs138 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-14T17:23:54+02:00"^^xsd:dateTime .
 
-osh:obs139 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs139 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -484,7 +470,7 @@ osh:obs139 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-14T23:30:06+02:00"^^xsd:dateTime .
 
-osh:obs14 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs14 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -494,7 +480,7 @@ osh:obs14 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T15:06:12+01:00"^^xsd:dateTime .
 
-osh:obs140 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs140 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -504,7 +490,7 @@ osh:obs140 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-15T04:51:59+02:00"^^xsd:dateTime .
 
-osh:obs141 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs141 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -514,7 +500,7 @@ osh:obs141 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-15T09:54:50+02:00"^^xsd:dateTime .
 
-osh:obs142 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs142 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -524,7 +510,7 @@ osh:obs142 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-15T15:00:32+02:00"^^xsd:dateTime .
 
-osh:obs143 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs143 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -534,7 +520,7 @@ osh:obs143 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-15T17:37:16+02:00"^^xsd:dateTime .
 
-osh:obs144 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs144 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -544,7 +530,7 @@ osh:obs144 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-15T23:30:30+02:00"^^xsd:dateTime .
 
-osh:obs145 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs145 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -554,7 +540,7 @@ osh:obs145 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T05:00:41+02:00"^^xsd:dateTime .
 
-osh:obs146 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs146 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -564,7 +550,7 @@ osh:obs146 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T09:12:45+02:00"^^xsd:dateTime .
 
-osh:obs147 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs147 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -574,7 +560,7 @@ osh:obs147 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T15:00:24+02:00"^^xsd:dateTime .
 
-osh:obs148 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs148 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -584,7 +570,7 @@ osh:obs148 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T16:15:31+02:00"^^xsd:dateTime .
 
-osh:obs149 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs149 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -594,7 +580,7 @@ osh:obs149 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T23:27:55+02:00"^^xsd:dateTime .
 
-osh:obs15 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs15 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -604,7 +590,7 @@ osh:obs15 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T19:23:51+01:00"^^xsd:dateTime .
 
-osh:obs150 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs150 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -614,7 +600,7 @@ osh:obs150 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T23:28:27+02:00"^^xsd:dateTime .
 
-osh:obs151 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs151 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -624,7 +610,7 @@ osh:obs151 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-16T23:30:27+02:00"^^xsd:dateTime .
 
-osh:obs152 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs152 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -634,7 +620,7 @@ osh:obs152 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-17T04:06:23+02:00"^^xsd:dateTime .
 
-osh:obs153 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs153 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -644,7 +630,7 @@ osh:obs153 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-17T05:27:33+02:00"^^xsd:dateTime .
 
-osh:obs154 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs154 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -654,7 +640,7 @@ osh:obs154 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-17T09:30:06+02:00"^^xsd:dateTime .
 
-osh:obs155 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs155 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -664,7 +650,7 @@ osh:obs155 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-17T16:01:44+02:00"^^xsd:dateTime .
 
-osh:obs156 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs156 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -674,7 +660,7 @@ osh:obs156 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-17T22:24:49+02:00"^^xsd:dateTime .
 
-osh:obs157 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs157 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -684,7 +670,7 @@ osh:obs157 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-18T01:17:55+02:00"^^xsd:dateTime .
 
-osh:obs158 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs158 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -694,7 +680,7 @@ osh:obs158 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-18T12:12:28+02:00"^^xsd:dateTime .
 
-osh:obs159 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs159 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -704,7 +690,7 @@ osh:obs159 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T01:26:15+02:00"^^xsd:dateTime .
 
-osh:obs16 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs16 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -714,7 +700,7 @@ osh:obs16 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T19:24:23+01:00"^^xsd:dateTime .
 
-osh:obs160 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs160 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -724,7 +710,7 @@ osh:obs160 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T02:00:18+02:00"^^xsd:dateTime .
 
-osh:obs161 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs161 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -734,7 +720,7 @@ osh:obs161 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T09:20:13+02:00"^^xsd:dateTime .
 
-osh:obs162 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs162 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -744,7 +730,7 @@ osh:obs162 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T09:30:22+02:00"^^xsd:dateTime .
 
-osh:obs163 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs163 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -754,7 +740,7 @@ osh:obs163 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T16:24:13+02:00"^^xsd:dateTime .
 
-osh:obs164 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs164 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -764,7 +750,7 @@ osh:obs164 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-19T23:54:05+02:00"^^xsd:dateTime .
 
-osh:obs165 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs165 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -774,7 +760,7 @@ osh:obs165 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-20T03:17:14+02:00"^^xsd:dateTime .
 
-osh:obs166 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs166 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -784,7 +770,7 @@ osh:obs166 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-20T08:22:06+02:00"^^xsd:dateTime .
 
-osh:obs167 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs167 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -794,7 +780,7 @@ osh:obs167 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-20T09:20:25+02:00"^^xsd:dateTime .
 
-osh:obs168 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs168 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -804,7 +790,7 @@ osh:obs168 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-20T09:30:34+02:00"^^xsd:dateTime .
 
-osh:obs169 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs169 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -814,7 +800,7 @@ osh:obs169 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-20T09:32:37+02:00"^^xsd:dateTime .
 
-osh:obs17 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs17 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -824,7 +810,7 @@ osh:obs17 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-11T22:30:27+01:00"^^xsd:dateTime .
 
-osh:obs170 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs170 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -834,7 +820,7 @@ osh:obs170 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-21T09:30:31+02:00"^^xsd:dateTime .
 
-osh:obs171 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs171 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -844,7 +830,7 @@ osh:obs171 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-21T12:18:56+02:00"^^xsd:dateTime .
 
-osh:obs172 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs172 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -854,7 +840,7 @@ osh:obs172 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-21T14:31:49+02:00"^^xsd:dateTime .
 
-osh:obs173 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs173 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -864,7 +850,7 @@ osh:obs173 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-21T17:25:47+02:00"^^xsd:dateTime .
 
-osh:obs174 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs174 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -874,7 +860,7 @@ osh:obs174 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-21T23:30:32+02:00"^^xsd:dateTime .
 
-osh:obs175 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs175 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -884,7 +870,7 @@ osh:obs175 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-22T00:49:43+02:00"^^xsd:dateTime .
 
-osh:obs176 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs176 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -894,7 +880,7 @@ osh:obs176 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-22T03:21:34+02:00"^^xsd:dateTime .
 
-osh:obs177 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs177 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -904,7 +890,7 @@ osh:obs177 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-23T01:02:56+02:00"^^xsd:dateTime .
 
-osh:obs178 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs178 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -914,7 +900,7 @@ osh:obs178 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-23T10:31:28+02:00"^^xsd:dateTime .
 
-osh:obs179 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs179 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -924,7 +910,7 @@ osh:obs179 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-26T01:23:16+02:00"^^xsd:dateTime .
 
-osh:obs18 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs18 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -934,7 +920,7 @@ osh:obs18 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-12T08:57:12+01:00"^^xsd:dateTime .
 
-osh:obs180 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs180 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -944,7 +930,7 @@ osh:obs180 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T02:41:09+02:00"^^xsd:dateTime .
 
-osh:obs181 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs181 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -954,7 +940,7 @@ osh:obs181 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T03:02:53+02:00"^^xsd:dateTime .
 
-osh:obs182 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs182 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -964,7 +950,7 @@ osh:obs182 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T10:35:28+02:00"^^xsd:dateTime .
 
-osh:obs183 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs183 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -974,7 +960,7 @@ osh:obs183 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T15:00:22+02:00"^^xsd:dateTime .
 
-osh:obs184 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs184 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -984,7 +970,7 @@ osh:obs184 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T16:57:37+02:00"^^xsd:dateTime .
 
-osh:obs185 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs185 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -994,7 +980,7 @@ osh:obs185 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-04-30T23:30:13+02:00"^^xsd:dateTime .
 
-osh:obs186 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs186 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1004,7 +990,7 @@ osh:obs186 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-01T02:29:34+02:00"^^xsd:dateTime .
 
-osh:obs187 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs187 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1014,7 +1000,7 @@ osh:obs187 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-01T06:01:09+02:00"^^xsd:dateTime .
 
-osh:obs188 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs188 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1024,7 +1010,7 @@ osh:obs188 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-01T09:30:16+02:00"^^xsd:dateTime .
 
-osh:obs189 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs189 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1034,7 +1020,7 @@ osh:obs189 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-01T17:57:03+02:00"^^xsd:dateTime .
 
-osh:obs19 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs19 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1044,7 +1030,7 @@ osh:obs19 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-12T14:39:47+01:00"^^xsd:dateTime .
 
-osh:obs190 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs190 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1054,7 +1040,7 @@ osh:obs190 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-01T23:30:10+02:00"^^xsd:dateTime .
 
-osh:obs191 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs191 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1064,7 +1050,7 @@ osh:obs191 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T03:35:13+02:00"^^xsd:dateTime .
 
-osh:obs192 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs192 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1074,7 +1060,7 @@ osh:obs192 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T06:06:50+02:00"^^xsd:dateTime .
 
-osh:obs193 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs193 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1084,7 +1070,7 @@ osh:obs193 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T09:30:12+02:00"^^xsd:dateTime .
 
-osh:obs194 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs194 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1094,7 +1080,7 @@ osh:obs194 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T09:32:50+02:00"^^xsd:dateTime .
 
-osh:obs195 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs195 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1104,7 +1090,7 @@ osh:obs195 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T12:02:12+02:00"^^xsd:dateTime .
 
-osh:obs196 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs196 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1114,7 +1100,7 @@ osh:obs196 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T19:30:06+02:00"^^xsd:dateTime .
 
-osh:obs197 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs197 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1124,7 +1110,7 @@ osh:obs197 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T23:20:28+02:00"^^xsd:dateTime .
 
-osh:obs198 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs198 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1134,7 +1120,7 @@ osh:obs198 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-02T23:30:06+02:00"^^xsd:dateTime .
 
-osh:obs199 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs199 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1144,7 +1130,7 @@ osh:obs199 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-03T06:09:28+02:00"^^xsd:dateTime .
 
-osh:obs2 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs2 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1154,7 +1140,7 @@ osh:obs2 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-09T14:29:55+01:00"^^xsd:dateTime .
 
-osh:obs20 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs20 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1164,7 +1150,7 @@ osh:obs20 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-12T22:30:28+01:00"^^xsd:dateTime .
 
-osh:obs200 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs200 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1174,7 +1160,7 @@ osh:obs200 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-03T09:30:32+02:00"^^xsd:dateTime .
 
-osh:obs201 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs201 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1184,7 +1170,7 @@ osh:obs201 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-03T17:24:44+02:00"^^xsd:dateTime .
 
-osh:obs202 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs202 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1194,7 +1180,7 @@ osh:obs202 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-03T23:30:26+02:00"^^xsd:dateTime .
 
-osh:obs203 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs203 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1204,7 +1190,7 @@ osh:obs203 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-04T03:25:50+02:00"^^xsd:dateTime .
 
-osh:obs204 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs204 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1214,7 +1200,7 @@ osh:obs204 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-04T06:07:37+02:00"^^xsd:dateTime .
 
-osh:obs205 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs205 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1224,7 +1210,7 @@ osh:obs205 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-04T09:30:36+02:00"^^xsd:dateTime .
 
-osh:obs206 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs206 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1234,7 +1220,7 @@ osh:obs206 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-04T17:31:38+02:00"^^xsd:dateTime .
 
-osh:obs207 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs207 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1244,7 +1230,7 @@ osh:obs207 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-04T23:30:21+02:00"^^xsd:dateTime .
 
-osh:obs208 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs208 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1254,7 +1240,7 @@ osh:obs208 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-05T05:03:37+02:00"^^xsd:dateTime .
 
-osh:obs209 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs209 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1264,7 +1250,7 @@ osh:obs209 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-05T06:04:33+02:00"^^xsd:dateTime .
 
-osh:obs21 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs21 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1274,7 +1260,7 @@ osh:obs21 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-13T04:26:16+01:00"^^xsd:dateTime .
 
-osh:obs210 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs210 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1284,7 +1270,7 @@ osh:obs210 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-05T09:30:35+02:00"^^xsd:dateTime .
 
-osh:obs211 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs211 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1294,7 +1280,7 @@ osh:obs211 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-05T17:28:21+02:00"^^xsd:dateTime .
 
-osh:obs212 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs212 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1304,7 +1290,7 @@ osh:obs212 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-05T23:30:32+02:00"^^xsd:dateTime .
 
-osh:obs213 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs213 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1314,7 +1300,7 @@ osh:obs213 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-06T02:32:39+02:00"^^xsd:dateTime .
 
-osh:obs214 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs214 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1324,7 +1310,7 @@ osh:obs214 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-06T09:56:12+02:00"^^xsd:dateTime .
 
-osh:obs215 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs215 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1334,7 +1320,7 @@ osh:obs215 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-06T15:00:09+02:00"^^xsd:dateTime .
 
-osh:obs216 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs216 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1344,7 +1330,7 @@ osh:obs216 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-06T17:38:39+02:00"^^xsd:dateTime .
 
-osh:obs217 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs217 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1354,7 +1340,7 @@ osh:obs217 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-06T23:30:04+02:00"^^xsd:dateTime .
 
-osh:obs218 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs218 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1364,7 +1350,7 @@ osh:obs218 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-07T03:31:07+02:00"^^xsd:dateTime .
 
-osh:obs219 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs219 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1374,7 +1360,7 @@ osh:obs219 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-07T09:54:21+02:00"^^xsd:dateTime .
 
-osh:obs22 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs22 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1384,7 +1370,7 @@ osh:obs22 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-13T08:30:33+01:00"^^xsd:dateTime .
 
-osh:obs220 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs220 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1394,7 +1380,7 @@ osh:obs220 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-07T15:00:14+02:00"^^xsd:dateTime .
 
-osh:obs221 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs221 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1404,7 +1390,7 @@ osh:obs221 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-07T17:37:31+02:00"^^xsd:dateTime .
 
-osh:obs222 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs222 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1414,7 +1400,7 @@ osh:obs222 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-07T23:30:35+02:00"^^xsd:dateTime .
 
-osh:obs223 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs223 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1424,7 +1410,7 @@ osh:obs223 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-08T06:05:03+02:00"^^xsd:dateTime .
 
-osh:obs224 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs224 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1434,7 +1420,7 @@ osh:obs224 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-08T09:30:14+02:00"^^xsd:dateTime .
 
-osh:obs225 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs225 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1444,7 +1430,7 @@ osh:obs225 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-08T17:29:22+02:00"^^xsd:dateTime .
 
-osh:obs226 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs226 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1454,7 +1440,7 @@ osh:obs226 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-08T23:30:15+02:00"^^xsd:dateTime .
 
-osh:obs227 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs227 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1464,7 +1450,7 @@ osh:obs227 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T03:57:26+02:00"^^xsd:dateTime .
 
-osh:obs228 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs228 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1474,7 +1460,7 @@ osh:obs228 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T05:28:15+02:00"^^xsd:dateTime .
 
-osh:obs229 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs229 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1484,7 +1470,7 @@ osh:obs229 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T09:30:18+02:00"^^xsd:dateTime .
 
-osh:obs23 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs23 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1494,7 +1480,7 @@ osh:obs23 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-13T14:43:15+01:00"^^xsd:dateTime .
 
-osh:obs230 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs230 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1504,7 +1490,7 @@ osh:obs230 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T16:41:37+02:00"^^xsd:dateTime .
 
-osh:obs231 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs231 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1514,7 +1500,7 @@ osh:obs231 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T23:30:32+02:00"^^xsd:dateTime .
 
-osh:obs232 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs232 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1524,7 +1510,7 @@ osh:obs232 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-09T23:38:41+02:00"^^xsd:dateTime .
 
-osh:obs233 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs233 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1534,7 +1520,7 @@ osh:obs233 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-11T01:25:47+02:00"^^xsd:dateTime .
 
-osh:obs234 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs234 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1544,7 +1530,7 @@ osh:obs234 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T01:33:35+02:00"^^xsd:dateTime .
 
-osh:obs235 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs235 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1554,7 +1540,7 @@ osh:obs235 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T02:00:32+02:00"^^xsd:dateTime .
 
-osh:obs236 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs236 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1564,7 +1550,7 @@ osh:obs236 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T09:20:16+02:00"^^xsd:dateTime .
 
-osh:obs237 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs237 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1574,7 +1560,7 @@ osh:obs237 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T09:30:25+02:00"^^xsd:dateTime .
 
-osh:obs238 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs238 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1584,7 +1570,7 @@ osh:obs238 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T18:22:16+02:00"^^xsd:dateTime .
 
-osh:obs239 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs239 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1594,7 +1580,7 @@ osh:obs239 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-12T23:30:21+02:00"^^xsd:dateTime .
 
-osh:obs24 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs24 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1604,7 +1590,7 @@ osh:obs24 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-13T16:24:51+01:00"^^xsd:dateTime .
 
-osh:obs240 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs240 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1614,7 +1600,7 @@ osh:obs240 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-13T03:25:03+02:00"^^xsd:dateTime .
 
-osh:obs241 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs241 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1624,7 +1610,7 @@ osh:obs241 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-13T09:57:47+02:00"^^xsd:dateTime .
 
-osh:obs242 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs242 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1634,7 +1620,7 @@ osh:obs242 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-13T15:00:12+02:00"^^xsd:dateTime .
 
-osh:obs243 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs243 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1644,7 +1630,7 @@ osh:obs243 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-13T17:10:08+02:00"^^xsd:dateTime .
 
-osh:obs244 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs244 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1654,7 +1640,7 @@ osh:obs244 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-13T23:30:13+02:00"^^xsd:dateTime .
 
-osh:obs245 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs245 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1664,7 +1650,7 @@ osh:obs245 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-14T05:02:39+02:00"^^xsd:dateTime .
 
-osh:obs246 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs246 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1674,7 +1660,7 @@ osh:obs246 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-14T09:54:30+02:00"^^xsd:dateTime .
 
-osh:obs247 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs247 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1684,7 +1670,7 @@ osh:obs247 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-14T15:00:28+02:00"^^xsd:dateTime .
 
-osh:obs248 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs248 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1694,7 +1680,7 @@ osh:obs248 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-14T17:37:13+02:00"^^xsd:dateTime .
 
-osh:obs249 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs249 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1704,7 +1690,7 @@ osh:obs249 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-14T23:30:19+02:00"^^xsd:dateTime .
 
-osh:obs25 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs25 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1714,7 +1700,7 @@ osh:obs25 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-13T22:30:12+01:00"^^xsd:dateTime .
 
-osh:obs250 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs250 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1724,7 +1710,7 @@ osh:obs250 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-15T04:15:04+02:00"^^xsd:dateTime .
 
-osh:obs251 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs251 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1734,7 +1720,7 @@ osh:obs251 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-15T06:46:21+02:00"^^xsd:dateTime .
 
-osh:obs252 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs252 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1744,7 +1730,7 @@ osh:obs252 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-15T09:30:14+02:00"^^xsd:dateTime .
 
-osh:obs253 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs253 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1754,7 +1740,7 @@ osh:obs253 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-15T18:20:33+02:00"^^xsd:dateTime .
 
-osh:obs254 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs254 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1764,7 +1750,7 @@ osh:obs254 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-15T23:30:28+02:00"^^xsd:dateTime .
 
-osh:obs255 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs255 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1774,7 +1760,7 @@ osh:obs255 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-16T04:48:14+02:00"^^xsd:dateTime .
 
-osh:obs256 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs256 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1784,7 +1770,7 @@ osh:obs256 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-16T06:09:01+02:00"^^xsd:dateTime .
 
-osh:obs257 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs257 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1794,7 +1780,7 @@ osh:obs257 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-16T09:30:29+02:00"^^xsd:dateTime .
 
-osh:obs258 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs258 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1804,7 +1790,7 @@ osh:obs258 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-16T18:24:07+02:00"^^xsd:dateTime .
 
-osh:obs259 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs259 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1814,7 +1800,7 @@ osh:obs259 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-16T23:30:06+02:00"^^xsd:dateTime .
 
-osh:obs26 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs26 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1824,7 +1810,7 @@ osh:obs26 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-14T04:20:55+01:00"^^xsd:dateTime .
 
-osh:obs260 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs260 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1834,7 +1820,7 @@ osh:obs260 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-17T01:13:41+02:00"^^xsd:dateTime .
 
-osh:obs261 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs261 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1844,7 +1830,7 @@ osh:obs261 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-17T06:46:16+02:00"^^xsd:dateTime .
 
-osh:obs262 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs262 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1854,7 +1840,7 @@ osh:obs262 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-17T09:30:37+02:00"^^xsd:dateTime .
 
-osh:obs263 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs263 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1864,7 +1850,7 @@ osh:obs263 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-17T18:22:30+02:00"^^xsd:dateTime .
 
-osh:obs264 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs264 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1874,7 +1860,7 @@ osh:obs264 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-17T23:30:27+02:00"^^xsd:dateTime .
 
-osh:obs265 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs265 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1884,7 +1870,7 @@ osh:obs265 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-18T04:12:01+02:00"^^xsd:dateTime .
 
-osh:obs266 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs266 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1894,7 +1880,7 @@ osh:obs266 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-18T06:43:13+02:00"^^xsd:dateTime .
 
-osh:obs267 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs267 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1904,7 +1890,7 @@ osh:obs267 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-18T09:30:03+02:00"^^xsd:dateTime .
 
-osh:obs268 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs268 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1914,7 +1900,7 @@ osh:obs268 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-18T18:27:25+02:00"^^xsd:dateTime .
 
-osh:obs269 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs269 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1924,7 +1910,7 @@ osh:obs269 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-18T23:30:23+02:00"^^xsd:dateTime .
 
-osh:obs27 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs27 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1934,7 +1920,7 @@ osh:obs27 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-14T08:30:19+01:00"^^xsd:dateTime .
 
-osh:obs270 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs270 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1944,7 +1930,7 @@ osh:obs270 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-19T03:39:07+02:00"^^xsd:dateTime .
 
-osh:obs271 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs271 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1954,7 +1940,7 @@ osh:obs271 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-19T08:10:37+02:00"^^xsd:dateTime .
 
-osh:obs272 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs272 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1964,7 +1950,7 @@ osh:obs272 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-19T09:30:19+02:00"^^xsd:dateTime .
 
-osh:obs273 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs273 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1974,7 +1960,7 @@ osh:obs273 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-19T19:30:42+02:00"^^xsd:dateTime .
 
-osh:obs274 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs274 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1984,7 +1970,7 @@ osh:obs274 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-19T23:30:39+02:00"^^xsd:dateTime .
 
-osh:obs275 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs275 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -1994,7 +1980,7 @@ osh:obs275 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T04:50:17+02:00"^^xsd:dateTime .
 
-osh:obs276 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs276 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2004,7 +1990,7 @@ osh:obs276 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T12:00:35+02:00"^^xsd:dateTime .
 
-osh:obs277 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs277 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2014,7 +2000,7 @@ osh:obs277 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T15:00:11+02:00"^^xsd:dateTime .
 
-osh:obs278 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs278 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2024,7 +2010,7 @@ osh:obs278 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T19:00:13+02:00"^^xsd:dateTime .
 
-osh:obs279 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs279 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2034,7 +2020,7 @@ osh:obs279 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T23:20:27+02:00"^^xsd:dateTime .
 
-osh:obs28 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs28 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2044,7 +2030,7 @@ osh:obs28 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-14T14:46:28+01:00"^^xsd:dateTime .
 
-osh:obs280 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs280 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2054,7 +2040,7 @@ osh:obs280 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-20T23:30:36+02:00"^^xsd:dateTime .
 
-osh:obs281 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs281 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2064,7 +2050,7 @@ osh:obs281 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-21T01:24:07+02:00"^^xsd:dateTime .
 
-osh:obs282 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs282 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2074,7 +2060,7 @@ osh:obs282 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-21T10:37:51+02:00"^^xsd:dateTime .
 
-osh:obs283 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs283 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2084,7 +2070,7 @@ osh:obs283 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-21T15:00:14+02:00"^^xsd:dateTime .
 
-osh:obs284 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs284 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2094,7 +2080,7 @@ osh:obs284 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-21T17:51:14+02:00"^^xsd:dateTime .
 
-osh:obs285 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs285 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2104,7 +2090,7 @@ osh:obs285 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-21T23:30:32+02:00"^^xsd:dateTime .
 
-osh:obs286 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs286 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2114,7 +2100,7 @@ osh:obs286 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-22T02:58:33+02:00"^^xsd:dateTime .
 
-osh:obs287 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs287 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2124,7 +2110,7 @@ osh:obs287 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-22T06:40:41+02:00"^^xsd:dateTime .
 
-osh:obs288 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs288 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2134,7 +2120,7 @@ osh:obs288 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-22T09:30:28+02:00"^^xsd:dateTime .
 
-osh:obs289 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs289 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2144,7 +2130,7 @@ osh:obs289 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-22T18:04:30+02:00"^^xsd:dateTime .
 
-osh:obs29 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs29 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2154,7 +2140,7 @@ osh:obs29 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-14T16:28:02+01:00"^^xsd:dateTime .
 
-osh:obs290 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs290 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2164,7 +2150,7 @@ osh:obs290 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-22T23:30:11+02:00"^^xsd:dateTime .
 
-osh:obs291 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs291 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2174,7 +2160,7 @@ osh:obs291 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-23T01:41:43+02:00"^^xsd:dateTime .
 
-osh:obs292 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs292 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2184,7 +2170,7 @@ osh:obs292 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-23T06:44:20+02:00"^^xsd:dateTime .
 
-osh:obs293 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs293 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2194,7 +2180,7 @@ osh:obs293 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-23T09:30:17+02:00"^^xsd:dateTime .
 
-osh:obs294 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs294 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2204,7 +2190,7 @@ osh:obs294 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-23T18:27:57+02:00"^^xsd:dateTime .
 
-osh:obs295 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs295 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2214,7 +2200,7 @@ osh:obs295 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-23T23:30:19+02:00"^^xsd:dateTime .
 
-osh:obs296 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs296 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2224,7 +2210,7 @@ osh:obs296 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-24T03:54:11+02:00"^^xsd:dateTime .
 
-osh:obs297 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs297 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2234,7 +2220,7 @@ osh:obs297 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-24T07:25:46+02:00"^^xsd:dateTime .
 
-osh:obs298 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs298 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2244,7 +2230,7 @@ osh:obs298 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-24T09:30:28+02:00"^^xsd:dateTime .
 
-osh:obs299 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs299 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2254,7 +2240,7 @@ osh:obs299 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-24T18:49:38+02:00"^^xsd:dateTime .
 
-osh:obs3 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs3 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2264,7 +2250,7 @@ osh:obs3 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-09T16:21:33+01:00"^^xsd:dateTime .
 
-osh:obs30 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs30 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2274,7 +2260,7 @@ osh:obs30 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-14T22:30:23+01:00"^^xsd:dateTime .
 
-osh:obs300 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs300 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2284,7 +2270,7 @@ osh:obs300 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-24T23:30:13+02:00"^^xsd:dateTime .
 
-osh:obs301 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs301 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2294,7 +2280,7 @@ osh:obs301 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-25T01:07:05+02:00"^^xsd:dateTime .
 
-osh:obs302 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs302 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2304,7 +2290,7 @@ osh:obs302 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-25T06:49:25+02:00"^^xsd:dateTime .
 
-osh:obs303 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs303 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2314,7 +2300,7 @@ osh:obs303 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-25T09:30:17+02:00"^^xsd:dateTime .
 
-osh:obs304 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs304 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2324,7 +2310,7 @@ osh:obs304 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-25T18:25:33+02:00"^^xsd:dateTime .
 
-osh:obs305 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs305 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2334,7 +2320,7 @@ osh:obs305 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-25T23:30:30+02:00"^^xsd:dateTime .
 
-osh:obs306 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs306 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2344,7 +2330,7 @@ osh:obs306 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-26T06:50:03+02:00"^^xsd:dateTime .
 
-osh:obs307 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs307 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2354,7 +2340,7 @@ osh:obs307 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-26T09:30:20+02:00"^^xsd:dateTime .
 
-osh:obs308 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs308 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2364,7 +2350,7 @@ osh:obs308 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-26T18:24:58+02:00"^^xsd:dateTime .
 
-osh:obs309 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs309 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2374,7 +2360,7 @@ osh:obs309 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-26T23:30:11+02:00"^^xsd:dateTime .
 
-osh:obs31 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs31 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2384,7 +2370,7 @@ osh:obs31 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-15T04:23:41+01:00"^^xsd:dateTime .
 
-osh:obs310 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs310 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2394,7 +2380,7 @@ osh:obs310 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-27T02:52:29+02:00"^^xsd:dateTime .
 
-osh:obs311 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs311 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2404,7 +2390,7 @@ osh:obs311 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-27T11:15:22+02:00"^^xsd:dateTime .
 
-osh:obs312 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs312 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2414,7 +2400,7 @@ osh:obs312 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-27T15:00:23+02:00"^^xsd:dateTime .
 
-osh:obs313 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs313 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2424,7 +2410,7 @@ osh:obs313 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-27T19:00:18+02:00"^^xsd:dateTime .
 
-osh:obs314 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs314 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2434,7 +2420,7 @@ osh:obs314 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-27T23:30:15+02:00"^^xsd:dateTime .
 
-osh:obs315 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs315 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2444,7 +2430,7 @@ osh:obs315 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-28T12:00:12+02:00"^^xsd:dateTime .
 
-osh:obs316 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs316 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2454,7 +2440,7 @@ osh:obs316 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-28T15:00:19+02:00"^^xsd:dateTime .
 
-osh:obs317 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs317 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2464,7 +2450,7 @@ osh:obs317 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-28T19:00:12+02:00"^^xsd:dateTime .
 
-osh:obs318 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs318 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2474,7 +2460,7 @@ osh:obs318 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-28T23:30:30+02:00"^^xsd:dateTime .
 
-osh:obs319 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs319 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2484,7 +2470,7 @@ osh:obs319 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-29T08:10:27+02:00"^^xsd:dateTime .
 
-osh:obs32 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs32 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2494,7 +2480,7 @@ osh:obs32 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-15T08:30:29+01:00"^^xsd:dateTime .
 
-osh:obs320 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs320 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2504,7 +2490,7 @@ osh:obs320 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-29T09:30:04+02:00"^^xsd:dateTime .
 
-osh:obs321 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs321 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2514,7 +2500,7 @@ osh:obs321 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-29T19:30:09+02:00"^^xsd:dateTime .
 
-osh:obs322 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs322 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2524,7 +2510,7 @@ osh:obs322 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-29T23:30:06+02:00"^^xsd:dateTime .
 
-osh:obs323 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs323 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2534,7 +2520,7 @@ osh:obs323 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-30T03:57:24+02:00"^^xsd:dateTime .
 
-osh:obs324 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs324 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2544,7 +2530,7 @@ osh:obs324 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-30T08:10:25+02:00"^^xsd:dateTime .
 
-osh:obs325 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs325 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2554,7 +2540,7 @@ osh:obs325 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-30T09:30:33+02:00"^^xsd:dateTime .
 
-osh:obs326 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs326 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2564,7 +2550,7 @@ osh:obs326 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-30T19:30:13+02:00"^^xsd:dateTime .
 
-osh:obs327 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs327 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2574,7 +2560,7 @@ osh:obs327 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-30T23:30:28+02:00"^^xsd:dateTime .
 
-osh:obs328 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs328 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2584,7 +2570,7 @@ osh:obs328 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-31T01:26:47+02:00"^^xsd:dateTime .
 
-osh:obs329 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs329 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2594,7 +2580,7 @@ osh:obs329 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-31T08:10:35+02:00"^^xsd:dateTime .
 
-osh:obs33 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs33 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2604,7 +2590,7 @@ osh:obs33 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-15T14:49:47+01:00"^^xsd:dateTime .
 
-osh:obs330 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs330 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2614,7 +2600,7 @@ osh:obs330 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-31T09:30:12+02:00"^^xsd:dateTime .
 
-osh:obs331 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs331 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2624,7 +2610,7 @@ osh:obs331 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-31T19:30:05+02:00"^^xsd:dateTime .
 
-osh:obs332 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs332 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2634,7 +2620,7 @@ osh:obs332 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-05-31T23:30:33+02:00"^^xsd:dateTime .
 
-osh:obs333 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs333 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2644,7 +2630,7 @@ osh:obs333 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-01T02:39:21+02:00"^^xsd:dateTime .
 
-osh:obs334 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs334 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2654,7 +2640,7 @@ osh:obs334 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-01T08:10:17+02:00"^^xsd:dateTime .
 
-osh:obs335 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs335 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2664,7 +2650,7 @@ osh:obs335 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-01T09:30:29+02:00"^^xsd:dateTime .
 
-osh:obs336 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs336 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2674,7 +2660,7 @@ osh:obs336 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-01T19:30:14+02:00"^^xsd:dateTime .
 
-osh:obs337 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs337 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2684,7 +2670,7 @@ osh:obs337 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-01T23:30:14+02:00"^^xsd:dateTime .
 
-osh:obs338 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs338 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2694,7 +2680,7 @@ osh:obs338 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-02T01:55:24+02:00"^^xsd:dateTime .
 
-osh:obs339 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs339 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2704,7 +2690,7 @@ osh:obs339 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-02T08:10:21+02:00"^^xsd:dateTime .
 
-osh:obs34 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs34 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2714,7 +2700,7 @@ osh:obs34 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-15T15:40:36+01:00"^^xsd:dateTime .
 
-osh:obs340 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs340 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2724,7 +2710,7 @@ osh:obs340 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-02T09:30:13+02:00"^^xsd:dateTime .
 
-osh:obs341 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs341 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2734,7 +2720,7 @@ osh:obs341 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-02T19:30:10+02:00"^^xsd:dateTime .
 
-osh:obs342 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs342 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2744,7 +2730,7 @@ osh:obs342 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-02T23:30:30+02:00"^^xsd:dateTime .
 
-osh:obs343 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs343 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2754,7 +2740,7 @@ osh:obs343 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-03T02:12:46+02:00"^^xsd:dateTime .
 
-osh:obs344 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs344 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2764,7 +2750,7 @@ osh:obs344 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-03T12:00:14+02:00"^^xsd:dateTime .
 
-osh:obs345 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs345 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2774,7 +2760,7 @@ osh:obs345 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-03T15:00:13+02:00"^^xsd:dateTime .
 
-osh:obs346 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs346 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2784,7 +2770,7 @@ osh:obs346 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-03T19:00:12+02:00"^^xsd:dateTime .
 
-osh:obs347 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs347 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2794,7 +2780,7 @@ osh:obs347 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-03T23:30:38+02:00"^^xsd:dateTime .
 
-osh:obs348 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs348 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2804,7 +2790,7 @@ osh:obs348 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-04T04:09:11+02:00"^^xsd:dateTime .
 
-osh:obs349 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs349 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2814,7 +2800,7 @@ osh:obs349 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-04T12:00:21+02:00"^^xsd:dateTime .
 
-osh:obs35 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs35 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2824,7 +2810,7 @@ osh:obs35 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-15T22:30:16+01:00"^^xsd:dateTime .
 
-osh:obs350 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs350 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2834,7 +2820,7 @@ osh:obs350 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-04T15:00:16+02:00"^^xsd:dateTime .
 
-osh:obs351 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs351 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2844,7 +2830,7 @@ osh:obs351 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-04T19:00:25+02:00"^^xsd:dateTime .
 
-osh:obs352 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs352 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2854,7 +2840,7 @@ osh:obs352 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-04T23:30:41+02:00"^^xsd:dateTime .
 
-osh:obs353 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs353 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2864,7 +2850,7 @@ osh:obs353 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-05T02:06:11+02:00"^^xsd:dateTime .
 
-osh:obs354 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs354 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2874,7 +2860,7 @@ osh:obs354 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-05T08:10:07+02:00"^^xsd:dateTime .
 
-osh:obs355 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs355 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2884,7 +2870,7 @@ osh:obs355 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-05T09:30:36+02:00"^^xsd:dateTime .
 
-osh:obs356 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs356 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2894,7 +2880,7 @@ osh:obs356 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-05T19:30:09+02:00"^^xsd:dateTime .
 
-osh:obs357 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs357 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2904,7 +2890,7 @@ osh:obs357 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-06-05T23:30:31+02:00"^^xsd:dateTime .
 
-osh:obs36 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs36 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2914,7 +2900,7 @@ osh:obs36 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-16T04:27:03+01:00"^^xsd:dateTime .
 
-osh:obs37 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs37 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2924,7 +2910,7 @@ osh:obs37 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-16T08:30:23+01:00"^^xsd:dateTime .
 
-osh:obs38 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs38 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2934,7 +2920,7 @@ osh:obs38 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-16T14:53:15+01:00"^^xsd:dateTime .
 
-osh:obs39 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs39 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2944,7 +2930,7 @@ osh:obs39 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-16T16:24:49+01:00"^^xsd:dateTime .
 
-osh:obs4 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs4 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2954,7 +2940,7 @@ osh:obs4 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-09T22:30:21+01:00"^^xsd:dateTime .
 
-osh:obs40 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs40 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2964,7 +2950,7 @@ osh:obs40 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-16T22:30:25+01:00"^^xsd:dateTime .
 
-osh:obs41 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs41 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2974,7 +2960,7 @@ osh:obs41 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-17T05:10:12+01:00"^^xsd:dateTime .
 
-osh:obs42 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs42 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2984,7 +2970,7 @@ osh:obs42 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-17T08:30:25+01:00"^^xsd:dateTime .
 
-osh:obs43 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs43 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -2994,7 +2980,7 @@ osh:obs43 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-17T14:56:16+01:00"^^xsd:dateTime .
 
-osh:obs44 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs44 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3004,7 +2990,7 @@ osh:obs44 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-17T16:27:48+01:00"^^xsd:dateTime .
 
-osh:obs45 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs45 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3014,7 +3000,7 @@ osh:obs45 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-17T22:30:27+01:00"^^xsd:dateTime .
 
-osh:obs46 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs46 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3024,7 +3010,7 @@ osh:obs46 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-18T15:00:00+01:00"^^xsd:dateTime .
 
-osh:obs47 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs47 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3034,7 +3020,7 @@ osh:obs47 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-18T15:20:44+01:00"^^xsd:dateTime .
 
-osh:obs48 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs48 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3044,7 +3030,7 @@ osh:obs48 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-18T22:30:10+01:00"^^xsd:dateTime .
 
-osh:obs49 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs49 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3054,7 +3040,7 @@ osh:obs49 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-19T11:00:13+01:00"^^xsd:dateTime .
 
-osh:obs5 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs5 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3064,7 +3050,7 @@ osh:obs5 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T05:08:05+01:00"^^xsd:dateTime .
 
-osh:obs50 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs50 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3074,7 +3060,7 @@ osh:obs50 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-19T14:00:07+01:00"^^xsd:dateTime .
 
-osh:obs51 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs51 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3084,7 +3070,7 @@ osh:obs51 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-19T15:03:40+01:00"^^xsd:dateTime .
 
-osh:obs52 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs52 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3094,7 +3080,7 @@ osh:obs52 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-19T15:04:11+01:00"^^xsd:dateTime .
 
-osh:obs53 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs53 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3104,7 +3090,7 @@ osh:obs53 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-19T22:57:28+01:00"^^xsd:dateTime .
 
-osh:obs54 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs54 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3114,7 +3100,7 @@ osh:obs54 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T01:00:15+01:00"^^xsd:dateTime .
 
-osh:obs55 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs55 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3124,7 +3110,7 @@ osh:obs55 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T08:20:13+01:00"^^xsd:dateTime .
 
-osh:obs56 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs56 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3134,7 +3120,7 @@ osh:obs56 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T08:20:43+01:00"^^xsd:dateTime .
 
-osh:obs57 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs57 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3144,7 +3130,7 @@ osh:obs57 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T08:30:19+01:00"^^xsd:dateTime .
 
-osh:obs58 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs58 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3154,7 +3140,7 @@ osh:obs58 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T15:07:04+01:00"^^xsd:dateTime .
 
-osh:obs59 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs59 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3164,7 +3150,7 @@ osh:obs59 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T15:47:49+01:00"^^xsd:dateTime .
 
-osh:obs6 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs6 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3174,7 +3160,7 @@ osh:obs6 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T08:30:20+01:00"^^xsd:dateTime .
 
-osh:obs60 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs60 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3184,7 +3170,7 @@ osh:obs60 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-20T22:30:06+01:00"^^xsd:dateTime .
 
-osh:obs61 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs61 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3194,7 +3180,7 @@ osh:obs61 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-21T05:03:33+01:00"^^xsd:dateTime .
 
-osh:obs62 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs62 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3204,7 +3190,7 @@ osh:obs62 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-21T08:30:11+01:00"^^xsd:dateTime .
 
-osh:obs63 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs63 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3214,7 +3200,7 @@ osh:obs63 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-21T15:10:21+01:00"^^xsd:dateTime .
 
-osh:obs64 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs64 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3224,7 +3210,7 @@ osh:obs64 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-21T16:21:47+01:00"^^xsd:dateTime .
 
-osh:obs65 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs65 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3234,7 +3220,7 @@ osh:obs65 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-21T22:30:31+01:00"^^xsd:dateTime .
 
-osh:obs66 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs66 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3244,7 +3230,7 @@ osh:obs66 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-22T05:06:17+01:00"^^xsd:dateTime .
 
-osh:obs67 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs67 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3254,7 +3240,7 @@ osh:obs67 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-22T08:30:21+01:00"^^xsd:dateTime .
 
-osh:obs68 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs68 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3264,7 +3250,7 @@ osh:obs68 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-22T15:13:59+01:00"^^xsd:dateTime .
 
-osh:obs69 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs69 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3274,7 +3260,7 @@ osh:obs69 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-22T15:44:44+01:00"^^xsd:dateTime .
 
-osh:obs7 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs7 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3284,7 +3270,7 @@ osh:obs7 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T08:39:25+01:00"^^xsd:dateTime .
 
-osh:obs70 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs70 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3294,7 +3280,7 @@ osh:obs70 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-22T22:30:30+01:00"^^xsd:dateTime .
 
-osh:obs71 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs71 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3304,7 +3290,7 @@ osh:obs71 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T05:00:55+01:00"^^xsd:dateTime .
 
-osh:obs72 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs72 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3314,7 +3300,7 @@ osh:obs72 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T08:30:31+01:00"^^xsd:dateTime .
 
-osh:obs73 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs73 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3324,7 +3310,7 @@ osh:obs73 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T15:17:44+01:00"^^xsd:dateTime .
 
-osh:obs74 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs74 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3334,7 +3320,7 @@ osh:obs74 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T15:48:27+01:00"^^xsd:dateTime .
 
-osh:obs75 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs75 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3344,7 +3330,7 @@ osh:obs75 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T22:30:17+01:00"^^xsd:dateTime .
 
-osh:obs76 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs76 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3354,7 +3340,7 @@ osh:obs76 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-23T22:34:50+01:00"^^xsd:dateTime .
 
-osh:obs77 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs77 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3364,7 +3350,7 @@ osh:obs77 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T00:31:37+01:00"^^xsd:dateTime .
 
-osh:obs78 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs78 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3374,7 +3360,7 @@ osh:obs78 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T01:00:22+01:00"^^xsd:dateTime .
 
-osh:obs79 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs79 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3384,7 +3370,7 @@ osh:obs79 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T08:20:06+01:00"^^xsd:dateTime .
 
-osh:obs8 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs8 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3394,7 +3380,7 @@ osh:obs8 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T09:04:12+01:00"^^xsd:dateTime .
 
-osh:obs80 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs80 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3404,7 +3390,7 @@ osh:obs80 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T08:20:36+01:00"^^xsd:dateTime .
 
-osh:obs81 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs81 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3414,7 +3400,7 @@ osh:obs81 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T08:30:10+01:00"^^xsd:dateTime .
 
-osh:obs82 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs82 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3424,7 +3410,7 @@ osh:obs82 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T15:24:21+01:00"^^xsd:dateTime .
 
-osh:obs83 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs83 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3434,7 +3420,7 @@ osh:obs83 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T16:25:18+01:00"^^xsd:dateTime .
 
-osh:obs84 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs84 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3444,7 +3430,7 @@ osh:obs84 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T22:30:12+01:00"^^xsd:dateTime .
 
-osh:obs85 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs85 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3454,7 +3440,7 @@ osh:obs85 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-24T22:32:14+01:00"^^xsd:dateTime .
 
-osh:obs86 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs86 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3464,7 +3450,7 @@ osh:obs86 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T00:02:59+01:00"^^xsd:dateTime .
 
-osh:obs87 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs87 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3474,7 +3460,7 @@ osh:obs87 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T08:51:29+01:00"^^xsd:dateTime .
 
-osh:obs88 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs88 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3484,7 +3470,7 @@ osh:obs88 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T13:50:14+01:00"^^xsd:dateTime .
 
-osh:obs89 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs89 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3494,7 +3480,7 @@ osh:obs89 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T13:50:45+01:00"^^xsd:dateTime .
 
-osh:obs9 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs9 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3504,7 +3490,7 @@ osh:obs9 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-10T14:33:12+01:00"^^xsd:dateTime .
 
-osh:obs90 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs90 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3514,7 +3500,7 @@ osh:obs90 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T14:00:24+01:00"^^xsd:dateTime .
 
-osh:obs91 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs91 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3524,7 +3510,7 @@ osh:obs91 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T15:53:37+01:00"^^xsd:dateTime .
 
-osh:obs92 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs92 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3534,7 +3520,7 @@ osh:obs92 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T21:51:20+01:00"^^xsd:dateTime .
 
-osh:obs93 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs93 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3544,7 +3530,7 @@ osh:obs93 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T21:52:23+01:00"^^xsd:dateTime .
 
-osh:obs94 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs94 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3554,7 +3540,7 @@ osh:obs94 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-25T22:46:36+01:00"^^xsd:dateTime .
 
-osh:obs95 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs95 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3564,7 +3550,7 @@ osh:obs95 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-26T03:43:22+02:00"^^xsd:dateTime .
 
-osh:obs96 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs96 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3574,7 +3560,7 @@ osh:obs96 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-26T08:44:46+02:00"^^xsd:dateTime .
 
-osh:obs97 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs97 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3584,7 +3570,7 @@ osh:obs97 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T00:21:00+02:00"^^xsd:dateTime .
 
-osh:obs98 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs98 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
@@ -3594,7 +3580,7 @@ osh:obs98 a owl:NamedIndividual,
             qudt:unit qudtunit:DegreeCelsius ] ;
     sosa:resultTime "2017-03-28T02:00:17+02:00"^^xsd:dateTime .
 
-osh:obs99 a owl:NamedIndividual,
+osh:Room2-tempS-Actuator-obs99 a owl:NamedIndividual,
         sosa:Actuation ;
     sosa:actsOnProperty osh:Room2-tempS ;
     sosa:actuationMadeBy osh:Room2-tempS-Actuator ;
