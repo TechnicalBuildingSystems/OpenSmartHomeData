@@ -32,10 +32,11 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
-@base <https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet> .
+@prefix osh: <https://w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
+@prefix : <https://w3id.org/ibp/osh/OpenSmartHomeDataSet#> .
+@base <https://w3id.org/ibp/osh/OpenSmartHomeDataSet> .
 
-<https://www.w3id.org/ibp/osh/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
+<https://w3id.org/ibp/osh/OpenSmartHomeDataSet> rdf:type owl:Ontology ;
 dcterms:title "The Open Smart Home Data set ontology."@en ;
 			dcterms:description """The ontology holds a description of a smart home data set including measurement data obtained from physical sensors and data describing the flat they have been measured"""@en  ;
 			dcterms:creator "Georg Ferdinand Schneider" ;
