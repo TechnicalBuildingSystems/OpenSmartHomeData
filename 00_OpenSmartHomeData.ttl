@@ -399,7 +399,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "Room3Temp" .
 
-# Temperature Thermostat links
+# Temperature Thermostat left
 :Room3-tempTli rdf:type owl:NamedIndividual ,
                        sosa:ObservableProperty .
 
@@ -413,7 +413,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "Room3tempTli" .
 
-# Temperature Thermostat rechts
+# Temperature Thermostat right
 :Room3-tempTre rdf:type owl:NamedIndividual ,
                        sosa:ObservableProperty .
 
@@ -427,9 +427,6 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "Room3tempTre" .
 
-        
-        
-        
 # Humidity
 :Room3-humid rdf:type owl:NamedIndividual ,
                        sosa:ObservableProperty .
