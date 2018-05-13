@@ -3,5 +3,17 @@
     "password": "admin",
     "endpoint": "http://localhost:5820",
     "database": "osh",
-    "filePaths": ["../", "../MeasurementsTurtle"]
+    "filePaths": [
+        "../00_OpenSmartHomeData.ttl", 
+        "../01_LinkOsh.ttl",
+        "../02_BotFromRevit.ttl",
+        "../02_GeoFromRevit.ttl",
+        "../02_PropsFromRevit.ttl",
+        "../MeasurementsTurtle/Bathroom_Temperature.ttl",
+        "../MeasurementsTurtle/Kitchen_Temperature.ttl",
+        "../MeasurementsTurtle/Room1_Temperature.ttl",
+        "../MeasurementsTurtle/Room2_Temperature.ttl",
+        "../MeasurementsTurtle/Room3_Temperature.ttl",
+        "../MeasurementsTurtle/Toilet_Temperature.ttl"
+    ]
 }

@@ -135,7 +135,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                         schema:maxValue 40.0 ;
                         schema:unitCode om:degreeCelsius ] .
 
-Kitchen-temp-Sensor-Capa  rdf:type owl:NamedIndividual ,
+:Kitchen-temp-Sensor-Capa  rdf:type owl:NamedIndividual ,
                                    ssns:SystemCapability ;
         ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
                                     ssns:MeasurementRange ,
@@ -173,7 +173,7 @@ Kitchen-temp-Sensor-Capa  rdf:type owl:NamedIndividual ,
         sosa:observes :Kitchen-humid ;
         seas:connectsAt :KIhumid-CP .
 
-Kitchen-humid-Sensor-Capa  rdf:type owl:NamedIndividual ,
+:Kitchen-humid-Sensor-Capa  rdf:type owl:NamedIndividual ,
                                    ssns:SystemCapability ;
         ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
                                     ssns:MeasurementRange ,
@@ -197,7 +197,7 @@ Kitchen-humid-Sensor-Capa  rdf:type owl:NamedIndividual ,
         sosa:observes :Kitchen-brigh ;
         seas:connectsAt :KIbrigh-CP .
 
-Kitchen-brigh-Sensor-Capa  rdf:type owl:NamedIndividual ,
+:Kitchen-brigh-Sensor-Capa  rdf:type owl:NamedIndividual ,
                                    ssns:SystemCapability ;
         ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
                                     ssns:MeasurementRange ,
