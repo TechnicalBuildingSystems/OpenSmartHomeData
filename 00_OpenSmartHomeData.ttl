@@ -122,19 +122,27 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                               dog:TemperatureSensor ,
                               sosa:Sensor ;
         ssns:hasOperatingRange :Kitchen-temp-Sensor-OpRa ;
+        ssns:hasSystemCapability :Kitchen-temp-Sensor-Capa ;
         sosa:observes :Kitchen-temp ;
         seas:connectsAt :KITemp-CP .
 
 :Kitchen-temp-Sensor-OpRa rdf:type owl:NamedIndividual ,
                                    ssns:OperatingRange ;
-        ssns:inCondition :Kitchen-temp-Sensor-OpCo .
-        
-::Kitchen-temp-Sensor-OpCo rdf:type owl:NamedIndividual ,
+        ssns:inCondition [ rdf:type owl:NamedIndividual ,
                                     ssns:Condition ,
                                     schema:PropertyValue ;
-        schema:minValue 0.0 ;
-        schema:maxValue 40.0 ;
-        schema:unitCode om:degreeCelsius .
+                        schema:minValue 0.0 ;
+                        schema:maxValue 40.0 ;
+                        schema:unitCode om:degreeCelsius ] .
+
+Kitchen-temp-Sensor-Capa  rdf:type owl:NamedIndividual ,
+                                   ssns:SystemCapability ;
+        ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
+                                    ssns:MeasurementRange ,
+                                    schema:PropertyValue ;
+                        schema:minValue 0.0 ;
+                        schema:maxValue 40.0 ;
+                        schema:unitCode om:degreeCelsius ] .
 
 :KITemp-CP rdf:type owl:NamedIndividual ,
                      seas:EnOceanCommunicationConnectionPoint ;
@@ -161,9 +169,19 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
 :Kitchen-humid-Sensor rdf:type owl:NamedIndividual ,
                               dog:HumiditySensor ,
                               sosa:Sensor ;
+        ssns:hasSystemCapability :Kitchen-humid-Sensor-Capa ;
         sosa:observes :Kitchen-humid ;
         seas:connectsAt :KIhumid-CP .
-                 
+
+Kitchen-humid-Sensor-Capa  rdf:type owl:NamedIndividual ,
+                                   ssns:SystemCapability ;
+        ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
+                                    ssns:MeasurementRange ,
+                                    schema:PropertyValue ;
+                        schema:minValue 0.0 ;
+                        schema:maxValue 100.0 ;
+                        schema:unitCode om:percent ] .
+        
 :KIhumid-CP rdf:type owl:NamedIndividual ,
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "KIhumid" .
@@ -175,9 +193,19 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
 :Kitchen-brigh-Sensor rdf:type owl:NamedIndividual ,
                               dog:LightSensor ,
                               sosa:Sensor ;
+        ssns:hasSystemCapability :Kitchen-brigh-Sensor-Capa ;
         sosa:observes :Kitchen-brigh ;
         seas:connectsAt :KIbrigh-CP .
-                 
+
+Kitchen-brigh-Sensor-Capa  rdf:type owl:NamedIndividual ,
+                                   ssns:SystemCapability ;
+        ssns:hasSystemProperty [ rdf:type owl:NamedIndividual ,
+                                    ssns:MeasurementRange ,
+                                    schema:PropertyValue ;
+                        schema:minValue 0.0 ;
+                        schema:maxValue 60000.0 ;
+                        schema:unitCode om:lux ] .
+
 :KIbrigh-CP rdf:type owl:NamedIndividual ,
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "KIbrigh" .        
@@ -373,6 +401,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                   dog:Livingroom ,
                   sosa:FeatureOfInterest ;
         bot:containsElement :Room3-temp-Sensor ,
+                            :Room3-outTemp-OutSensor ,
                             :Room3-tempTli-Sensor ,
                             :Room3-tempTre-Sensor ,
                             :Room3-humid-Sensor ,
@@ -380,6 +409,7 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                             :Room3-tempS-Actuator ,
                             :Room3-heater ;
         ssn:hasProperty :Room3-temp ,
+                        :Room3-outTemp ,
                         :Room3-tempTli ,
                         :Room3-tempTre ,
                         :Room3-humid ,
@@ -398,6 +428,20 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
 :Room3Temp-CP rdf:type owl:NamedIndividual ,
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "Room3Temp" .
+
+# Temperature
+:Room3-outTemp rdf:type owl:NamedIndividual ,
+                       sosa:ObservableProperty .
+
+:Room3-outTemp-OutSensor rdf:type owl:NamedIndividual ,
+                              dog:TemperatureSensor ,
+                              sosa:Sensor ;
+        sosa:observes :Room3-outTemp ;
+        seas:connectsAt :Room3-outTemp-OutSensor-CP .
+                 
+:Room3-outTemp-OutSensor-CP rdf:type owl:NamedIndividual ,
+                     seas:EnOceanCommunicationConnectionPoint ;
+        dcterms:identifier "Room3OutTemp" .
 
 # Temperature Thermostat left
 :Room3-tempTli rdf:type owl:NamedIndividual ,
@@ -427,6 +471,9 @@ dcterms:title "The Open Smart Home Data set ontology."@en ;
                      seas:EnOceanCommunicationConnectionPoint ;
         dcterms:identifier "Room3tempTre" .
 
+        
+        
+        
 # Humidity
 :Room3-humid rdf:type owl:NamedIndividual ,
                        sosa:ObservableProperty .
