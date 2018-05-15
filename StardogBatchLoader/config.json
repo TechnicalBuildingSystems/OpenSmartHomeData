@@ -14,6 +14,12 @@
         "../MeasurementsTurtle/Room1_Temperature.ttl",
         "../MeasurementsTurtle/Room2_Temperature.ttl",
         "../MeasurementsTurtle/Room3_Temperature.ttl",
-        "../MeasurementsTurtle/Toilet_Temperature.ttl"
+        "../MeasurementsTurtle/Toilet_Temperature.ttl",
+        "../MeasurementsTurtle/Bathroom_Humidity.ttl",
+        "../MeasurementsTurtle/Kitchen_Humidity.ttl",
+        "../MeasurementsTurtle/Room1_Humidity.ttl",
+        "../MeasurementsTurtle/Room2_Humidity.ttl",
+        "../MeasurementsTurtle/Room3_Humidity.ttl",
+        "../MeasurementsTurtle/Toilet_Humidity.ttl"
     ]
 }
