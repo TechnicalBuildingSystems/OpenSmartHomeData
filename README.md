@@ -30,7 +30,7 @@ Please feel free to fork and contribute to the data set in compliance with the i
 
 ## The Data
 
-The data set comprises static and dynamic building data. 
+The data set comprises static and dynamic building data. The data is hosted in a GraphDB triple store sponsored by Ontotext: [https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet](https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet).
 
 Filename | Description
 --- | --- 
@@ -43,3 +43,9 @@ MeasurementTurtle | RDF dump of the measurements made using a real world smart h
 03_GEOM.ttl | GEOM export generated from the IFC file (04_Flat.ifc)
 04_Flat.ifc | IFC model of the flat exported from Revit
 05_Flat.rvt | Model of the flat in Revit
+
+## Acknowledgements
+
+The authors gratefully acknowledge the generous support by Ontotext (https://cloud.ontotext.com/) for providing a free in-stance of GraphDB Cloud to host the OSH.
+
+https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet
