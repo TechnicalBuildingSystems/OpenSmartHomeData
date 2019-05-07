@@ -47,5 +47,3 @@ MeasurementTurtle | RDF dump of the measurements made using a real world smart h
 ## Acknowledgements
 
 The authors gratefully acknowledge the generous support by Ontotext (https://cloud.ontotext.com/) for providing a free in-stance of GraphDB Cloud to host the OSH.
-
-https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet
