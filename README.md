@@ -37,6 +37,7 @@ The data set comprises static and dynamic building data. The data is hosted in a
 
 Filename | Description
 --- | --- 
+Measurement | A set of csv files, which contain the measured sensor and actuator values. A description of the data format provided is decribed below. Also see the annotated RDF version.
 MeasurementTurtle | RDF dump of the measurements made using a real world smart home system as RDF dumps in ttl format
 00_OpenSmartHomeData.ttl | Meta data describing the observations made by the smart home system measurements
 01_LinkOsh.ttl | Links linking instances from 00_OpenSmartHomeData.ttl and 02_BotFromRevit.ttl
@@ -46,6 +47,17 @@ MeasurementTurtle | RDF dump of the measurements made using a real world smart h
 03_GEOM.ttl | GEOM export generated from the IFC file (04_Flat.ifc)
 04_Flat.ifc | IFC model of the flat exported from Revit
 05_Flat.rvt | Model of the flat in Revit
+
+## Sensor and Actuator Data Description
+
+The CSV files stored in Measurement folder are named and each contain one time series of measured data. The values are obtained for the Bathroom, Kitchen, Room 1, Room 2, Room 3 and the Toilet. The respective time series are stored separated by a tab, where the first column contains the UNIX time and the second is the reading of the sensor. A dot is used to denote floating point numbers. Moreover, the following applies to the data:
+
+- ThermostatTemperature -> This is the air temperature measured at the thermostat mounted to the radiator. There is one room (Room 2) which has two Thermostats. The value is measured in degree Celsius and given as a floating point number.
+- Brightness -> This is the brightness measured by the luminance sensor placed in each room. It is reported as a floating point number and is unit is lux. 
+- Humidity -> This is the relative humidity of the air inside each room measured by the humidity sensor mounted to the wall. It return the relative humidity in percent as a integer number.
+- Temperature -> This is the indoor air temperature in degree celsius measured by the temperature sensor placed in each room.
+- SetpointHistory -> This is the setpoint for the room in degree Celsius as a floating point number as defined by the schedule of the controller.
+- OutdoorTemperature -> This is the outside air temperature as obtained from a virtual weather service in degree celsius and stored as a floating point number.
 
 ## Acknowledgements
 
