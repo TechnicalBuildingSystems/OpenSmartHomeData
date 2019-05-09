@@ -14,6 +14,9 @@ Unless required by applicable law or agreed to in writing, distributed under the
 
 Please refer to publications and the DOI [![DOI](https://zenodo.org/badge/120334357.svg)](https://zenodo.org/badge/latestdoi/120334357) registered for this repository when using the data in your research.
 
+Please also see the documentation in literature:  
+Schneider, G. F., Rasmussen, M. H., Bonsma, P., Oraskari, J., & Pauwels, P. (2018). *Linked building data for modular building information modelling of a smart home*. In 11th European Conference on Product and Process Modelling (pp. 407-414). CRC Press.
+
 ## Contributors
 
 The files have been prepared by the contribution of the following persons:
