@@ -4,7 +4,7 @@
 
 The time series of measured data from a smart home is subject to Copyright (c) 2018 Fraunhofer Institute for Building Physics, Nürnberg, Germany
 
-The associated meta data in RDF is subject to Copyright (c) 2018 W3C Linked Building Data Community Group.
+The associated meta data in RDF is subject to Copyright (c) 2018 of the contributors associated to the W3C Linked Building Data Community Group.
 
 All files and their documentation within this repository are licensed under the Creative Commons Attribution Share Alike License  (CC BY-SA 4.0); you may not use these files except in compliance with the license. You may obtain a copy of the license at: [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -33,7 +33,7 @@ Please feel free to fork and contribute to the data set in compliance with the i
 
 ## The Data
 
-The data set comprises static and dynamic building data. The data is hosted in a GraphDB triple store sponsored by Ontotext: [https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet](https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet).
+The data set comprises static and dynamic building data. The data is hosted until 30 July 2019 in a GraphDB triple store sponsored by Ontotext: [https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet](https://rdf.ontotext.com/4139541402/mydb/repositories/OpenSmartHomeDataSet). We are currently searching for a new home for the repo, as the GraphDB cloud services ends operation at the 30 July 2019.
 
 Filename | Description
 --- | --- 
@@ -61,4 +61,4 @@ The CSV files stored in Measurement folder are named and each contain one time s
 
 ## Acknowledgements
 
-The authors gratefully acknowledge the generous support by Ontotext (https://cloud.ontotext.com/) for providing a free in-stance of GraphDB Cloud to host the OSH.
+The authors gratefully acknowledge the generous support by Ontotext (https://cloud.ontotext.com/), which provided a free instance of GraphDB Cloud to host the OSH until 30 July 2019.
